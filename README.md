@@ -23,7 +23,7 @@ The intent is to learn:
 
 Any network-based tests are carried out against [scanme.f5labs.dev](https://scanme.f5labs.dev) which is a domain I own. Alternate domains include [scanme.nmap.org](http://scanme.nmap.org) if you do not own your own domain for testing.
 
-The tools created are taken from the following books:
+The tools created are from completing exercises in the following books:
 
 <img src="https://nostarch.com/sites/default/files/styles/uc_product/public/BHP_2e_full_final4-Green_revised1.png" alt="Black Hat Python" width="170" height="225"/><img src="https://nostarch.com/sites/default/files/styles/uc_product/public/BHG_frontcover_REV_HM.png" alt="Black Hat Python" width="170" height="225"/><img src="https://kerkour.com/books/black-hat-rust/black_hat_rust_cover.png" alt="Black Hat Python" width="170" height="225"/>
 
