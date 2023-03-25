@@ -724,6 +724,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "rustmap"
+version = "0.0.1"
+dependencies = [
+ "anyhow",
+ "futures",
+ "reqwest",
+ "serde",
+ "thiserror",
+ "tokio",
+ "tokio-stream",
+ "trust-dns-resolver",
+]
+
+[[package]]
 name = "ryu"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -973,20 +987,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1f4ed65637b8390770814083d20756f87bfa2c21bf2f110babdc5438351746e4"
 dependencies = [
  "lazy_static",
-]
-
-[[package]]
-name = "tricoder"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "futures",
- "reqwest",
- "serde",
- "thiserror",
- "tokio",
- "tokio-stream",
- "trust-dns-resolver",
 ]
 
 [[package]]
