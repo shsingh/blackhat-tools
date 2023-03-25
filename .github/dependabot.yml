@@ -9,3 +9,14 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: cargo
+    directory: /port-scanner/rust
+    schedule:
+      interval: daily
