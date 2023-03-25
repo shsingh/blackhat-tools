@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":[["Error",""]],"fn":[["main",""]],"mod":[["common_ports",""],["error",""],["model",""],["ports",""],["subdomains",""]]};
