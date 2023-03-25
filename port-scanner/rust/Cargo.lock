@@ -724,7 +724,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rustmap"
+name = "rustportmap"
 version = "0.0.1"
 dependencies = [
  "anyhow",

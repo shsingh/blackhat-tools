@@ -1,5 +1,5 @@
 [package]
-name = "rustmap"
+name = "rustportmap"
 version = "0.0.1"
 authors = ["Shain Singh <shsingh@linux.com>"]
 edition = "2018"
