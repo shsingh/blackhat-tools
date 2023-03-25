@@ -1,4 +1,5 @@
 # Black Hat Tools
+Author: [shsingh@linux.com](mailto:shsingh@linux.com)
 
 ---
 ![License](https://img.shields.io/github/license/shsingh/blackhat-tools)
