@@ -31,7 +31,7 @@ jobs:
           disable-sudo: true
           egress-policy: block
           allowed-endpoints: >
-            api.github.com:443 api.osv.dev:443 bestpractices.coreinfrastructure.org:443 fulcio.sigstore.dev:443 github.com:443 sigstore-tuf-root.storage.googleapis.com:443 static.rust-lang.org:443
+            api.github.com:443 github.com:443 static.rust-lang.org:443 crates.io:443
 
       - name: Checkout code
         uses: actions/checkout@v2
