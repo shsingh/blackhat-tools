@@ -20,7 +20,6 @@ The intent is to learn:
 - Typescript
 - Go
 - Rust
-- Python
 
 Any network-based tests are carried out against [scanme.f5labs.dev](https://scanme.f5labs.dev) which is a domain I own. Alternate domains include [scanme.nmap.org](http://scanme.nmap.org) if you do not own your own domain for testing.
 
