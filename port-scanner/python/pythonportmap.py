@@ -70,7 +70,7 @@ def udp_sender(subnet, magic_string):
             sender.sendto(magic_string.encode(), (str(ip), 65210))
         except:
             print("udp_sender reporting an exception")
-            
+
     print("Finished sending UDP packets")
 
 # create a raw socket and bind it to the public interface
@@ -97,7 +97,7 @@ try:
         # readpaket bytes
         raw_buffer = sniffer.recvfrom(65565)[0] # returns (bytes, address)
          # create an IP header from the first 20 bytes if the buffer
-        ip_header = IP(raw_buffer[0:20]) # since raw_buffer is a bytes object (an immutable sequence 
+        ip_header = IP(raw_buffer[0:20]) # since raw_buffer is a bytes object (an immutable sequence
                                          # in range [0, 255]), the "jumps" are made byte-by-byte
         # print the detected protocol and the hosts
         #print("Protocol: {0} {1} -> {2}".format(ip_header.protocol, ip_header.src_address, ip_header.dst_address))
