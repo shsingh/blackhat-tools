@@ -13,7 +13,7 @@ Author: [shsingh@linux.com](mailto:shsingh@linux.com)
 
 ---
 
-This repository contains tools made from completing exercises from various books.
+This repository contains tools made by completing exercises from various books.
 
 The intent is to learn:
 
