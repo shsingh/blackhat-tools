@@ -15,7 +15,7 @@ Author: [shsingh@linux.com](mailto:shsingh@linux.com)
 
 This repository contains tools made by completing exercises from various books.
 
-The intent is to specifically learn writing asynchronous and/or concurrent software for network and security use-cases in:
+The intent is to specifically learn writing asynchronous and/or concurrent software for security use-cases in:
 
 - Typescript
 - Go
