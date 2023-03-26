@@ -8,3 +8,11 @@ repos:
       - id: check-merge-conflict
       - id: check-symlinks
       - id: check-yaml
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.16.1
+    hooks:
+      - id: gitleaks
+        name: Detect hardcoded secrets
+        description: Detect hardcoded secrets using Gitleaks
+        entry: gitleaks protect --verbose --redact --staged
+        pass_filenames: false
