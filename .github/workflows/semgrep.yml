@@ -34,7 +34,7 @@ jobs:
           disable-sudo: true
           egress-policy: block
           allowed-endpoints: >
-            api.github.com:443 github.com:443 semgrep.dev:443
+            api.github.com:443 github.com:443 metrics.semgrep.dev:443 semgrep.dev:443
 
       # Checkout project source
       - uses: actions/checkout@v3
