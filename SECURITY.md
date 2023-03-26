@@ -2,4 +2,4 @@
 
 ## Reporting a Vulnerability
 
-Report security bugs and vulnerability to shsingh@linux.com
+Report security bugs and vulnerabilities to [shsingh@linux.com](mailtp:shsingh@linux.com)
