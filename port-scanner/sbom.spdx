@@ -3,22 +3,22 @@
  "dataLicense": "CC0-1.0",
  "SPDXID": "SPDXRef-DOCUMENT",
  "name": ".",
- "documentNamespace": "https://anchore.com/syft/dir/455ab97e-1c28-41c0-b137-c17906f19f6b",
+ "documentNamespace": "https://anchore.com/syft/dir/03477b7c-10d2-450f-b3be-7bfbfa0e7c04",
  "creationInfo": {
   "licenseListVersion": "3.20",
   "creators": [
    "Organization: Anchore, Inc",
-   "Tool: syft-0.75.0"
+   "Tool: syft-0.76.0"
   ],
-  "created": "2023-03-27T05:30:08Z"
+  "created": "2023-04-03T04:01:05Z"
  },
  "packages": [
   {
    "name": "anyhow",
-   "SPDXID": "SPDXRef-Package-rust-crate-anyhow-5601e718c1f4081e",
+   "SPDXID": "SPDXRef-Package-rust-crate-anyhow-913ee424aee55619",
    "versionInfo": "1.0.70",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -37,10 +37,10 @@
   },
   {
    "name": "async-trait",
-   "SPDXID": "SPDXRef-Package-rust-crate-async-trait-fc33fcfb22cad6e0",
+   "SPDXID": "SPDXRef-Package-rust-crate-async-trait-8ef420a37e450349",
    "versionInfo": "0.1.68",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -84,10 +84,10 @@
   },
   {
    "name": "autocfg",
-   "SPDXID": "SPDXRef-Package-rust-crate-autocfg-7dfb301fefa9a19e",
+   "SPDXID": "SPDXRef-Package-rust-crate-autocfg-aea3d5fea46f71d1",
    "versionInfo": "1.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -106,10 +106,10 @@
   },
   {
    "name": "base64",
-   "SPDXID": "SPDXRef-Package-rust-crate-base64-65332d3de0967f8f",
+   "SPDXID": "SPDXRef-Package-rust-crate-base64-d72e4c46816bfc02",
    "versionInfo": "0.21.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -128,10 +128,10 @@
   },
   {
    "name": "bitflags",
-   "SPDXID": "SPDXRef-Package-rust-crate-bitflags-c9802d5f3b690872",
+   "SPDXID": "SPDXRef-Package-rust-crate-bitflags-c16a79d67af71df8",
    "versionInfo": "1.3.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -150,10 +150,10 @@
   },
   {
    "name": "bumpalo",
-   "SPDXID": "SPDXRef-Package-rust-crate-bumpalo-3aa9e815b6ae0a57",
+   "SPDXID": "SPDXRef-Package-rust-crate-bumpalo-b7843d3c5cdcf24c",
    "versionInfo": "3.12.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -172,10 +172,10 @@
   },
   {
    "name": "bytes",
-   "SPDXID": "SPDXRef-Package-rust-crate-bytes-b1e25130be84ba09",
+   "SPDXID": "SPDXRef-Package-rust-crate-bytes-5ff90bc43c042ca1",
    "versionInfo": "1.4.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -194,10 +194,10 @@
   },
   {
    "name": "cc",
-   "SPDXID": "SPDXRef-Package-rust-crate-cc-e12c998eedeb227d",
+   "SPDXID": "SPDXRef-Package-rust-crate-cc-3de81f3ed0abc997",
    "versionInfo": "1.0.79",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -216,10 +216,10 @@
   },
   {
    "name": "cfg-if",
-   "SPDXID": "SPDXRef-Package-rust-crate-cfg-if-a2b0c4529d721328",
+   "SPDXID": "SPDXRef-Package-rust-crate-cfg-if-2d179bd6fd2ff541",
    "versionInfo": "1.0.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -263,10 +263,10 @@
   },
   {
    "name": "data-encoding",
-   "SPDXID": "SPDXRef-Package-rust-crate-data-encoding-321a2da7b869d1f2",
+   "SPDXID": "SPDXRef-Package-rust-crate-data-encoding-130956541aff2e1f",
    "versionInfo": "2.3.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -310,10 +310,10 @@
   },
   {
    "name": "encoding_rs",
-   "SPDXID": "SPDXRef-Package-rust-crate-encoding-rs-65fbb2cc0d7cfbc9",
+   "SPDXID": "SPDXRef-Package-rust-crate-encoding-rs-ffed5f3e7d51dc5",
    "versionInfo": "0.8.32",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -357,10 +357,10 @@
   },
   {
    "name": "enum-as-inner",
-   "SPDXID": "SPDXRef-Package-rust-crate-enum-as-inner-eab25679964c00c2",
-   "versionInfo": "0.3.4",
+   "SPDXID": "SPDXRef-Package-rust-crate-enum-as-inner-fc0b4f8f79737d22",
+   "versionInfo": "0.5.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -368,66 +368,66 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum-as-inner:enum-as-inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum-as-inner:enum-as-inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum-as-inner:enum_as_inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum-as-inner:enum_as_inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum_as_inner:enum-as-inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum_as_inner:enum-as-inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum_as_inner:enum_as_inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum_as_inner:enum_as_inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum-as:enum-as-inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum-as:enum-as-inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum-as:enum_as_inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum-as:enum_as_inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum_as:enum-as-inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum_as:enum-as-inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum_as:enum_as_inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum_as:enum_as_inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum:enum-as-inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum:enum-as-inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:enum:enum_as_inner:0.3.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:enum:enum_as_inner:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/enum-as-inner@0.3.4"
+     "referenceLocator": "pkg:cargo/enum-as-inner@0.5.1"
     }
    ]
   },
   {
    "name": "fnv",
-   "SPDXID": "SPDXRef-Package-rust-crate-fnv-4646423ba53f5f81",
+   "SPDXID": "SPDXRef-Package-rust-crate-fnv-4755727211740746",
    "versionInfo": "1.0.7",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -446,10 +446,10 @@
   },
   {
    "name": "form_urlencoded",
-   "SPDXID": "SPDXRef-Package-rust-crate-form-urlencoded-3ef2e6405c0ed9a7",
+   "SPDXID": "SPDXRef-Package-rust-crate-form-urlencoded-822708e37e21a07d",
    "versionInfo": "1.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -493,10 +493,10 @@
   },
   {
    "name": "futures",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-5d47080fde197ae",
-   "versionInfo": "0.3.27",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-5d6e64076029f5cd",
+   "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -504,21 +504,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/futures@0.3.27"
+     "referenceLocator": "pkg:cargo/futures@0.3.28"
     }
    ]
   },
   {
    "name": "futures-channel",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-channel-6513165f9375dcc1",
-   "versionInfo": "0.3.27",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-channel-16aff81b9da65881",
+   "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -526,46 +526,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-channel:futures-channel:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-channel:futures-channel:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-channel:futures_channel:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-channel:futures_channel:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_channel:futures-channel:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_channel:futures-channel:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_channel:futures_channel:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_channel:futures_channel:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures-channel:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures-channel:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures_channel:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures_channel:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/futures-channel@0.3.27"
+     "referenceLocator": "pkg:cargo/futures-channel@0.3.28"
     }
    ]
   },
   {
    "name": "futures-core",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-core-dcd3d790e4d6f209",
-   "versionInfo": "0.3.27",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-core-70f4a06ad20a676a",
+   "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -573,46 +573,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-core:futures-core:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-core:futures-core:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-core:futures_core:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-core:futures_core:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_core:futures-core:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_core:futures-core:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_core:futures_core:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_core:futures_core:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures-core:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures-core:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures_core:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures_core:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/futures-core@0.3.27"
+     "referenceLocator": "pkg:cargo/futures-core@0.3.28"
     }
    ]
   },
   {
    "name": "futures-executor",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-executor-d74306f49b3c0762",
-   "versionInfo": "0.3.27",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-executor-ed1a84d79b280e23",
+   "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -620,46 +620,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-executor:futures-executor:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-executor:futures-executor:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-executor:futures_executor:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-executor:futures_executor:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_executor:futures-executor:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_executor:futures-executor:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_executor:futures_executor:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_executor:futures_executor:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures-executor:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures-executor:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures_executor:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures_executor:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/futures-executor@0.3.27"
+     "referenceLocator": "pkg:cargo/futures-executor@0.3.28"
     }
    ]
   },
   {
    "name": "futures-io",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-io-fc98d560dc2fea3a",
-   "versionInfo": "0.3.27",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-io-a88f7a26308250c7",
+   "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -667,46 +667,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-io:futures-io:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-io:futures-io:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-io:futures_io:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-io:futures_io:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_io:futures-io:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_io:futures-io:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_io:futures_io:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_io:futures_io:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures-io:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures-io:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures_io:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures_io:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/futures-io@0.3.27"
+     "referenceLocator": "pkg:cargo/futures-io@0.3.28"
     }
    ]
   },
   {
    "name": "futures-macro",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-macro-5b857b06a734187a",
-   "versionInfo": "0.3.27",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-macro-28074495644661bd",
+   "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -714,46 +714,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-macro:futures-macro:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-macro:futures-macro:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-macro:futures_macro:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-macro:futures_macro:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_macro:futures-macro:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_macro:futures-macro:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_macro:futures_macro:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_macro:futures_macro:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures-macro:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures-macro:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures_macro:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures_macro:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/futures-macro@0.3.27"
+     "referenceLocator": "pkg:cargo/futures-macro@0.3.28"
     }
    ]
   },
   {
    "name": "futures-sink",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-sink-4f133c42e97bd93d",
-   "versionInfo": "0.3.27",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-sink-630f0ad322c9c348",
+   "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -761,46 +761,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-sink:futures-sink:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-sink:futures-sink:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-sink:futures_sink:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-sink:futures_sink:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_sink:futures-sink:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_sink:futures-sink:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_sink:futures_sink:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_sink:futures_sink:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures-sink:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures-sink:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures_sink:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures_sink:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/futures-sink@0.3.27"
+     "referenceLocator": "pkg:cargo/futures-sink@0.3.28"
     }
    ]
   },
   {
    "name": "futures-task",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-task-3a478540bcb089f9",
-   "versionInfo": "0.3.27",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-task-ca6e0575d59c9cd8",
+   "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -808,46 +808,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-task:futures-task:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-task:futures-task:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-task:futures_task:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-task:futures_task:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_task:futures-task:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_task:futures-task:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_task:futures_task:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_task:futures_task:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures-task:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures-task:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures_task:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures_task:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/futures-task@0.3.27"
+     "referenceLocator": "pkg:cargo/futures-task@0.3.28"
     }
    ]
   },
   {
    "name": "futures-util",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-util-db1579737aedbb69",
-   "versionInfo": "0.3.27",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-util-1ab1c323a21adab6",
+   "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -855,46 +855,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-util:futures-util:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-util:futures-util:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures-util:futures_util:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures-util:futures_util:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_util:futures-util:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_util:futures-util:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures_util:futures_util:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures_util:futures_util:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures-util:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures-util:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:futures:futures_util:0.3.27:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:futures:futures_util:0.3.28:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/futures-util@0.3.27"
+     "referenceLocator": "pkg:cargo/futures-util@0.3.28"
     }
    ]
   },
   {
    "name": "getrandom",
-   "SPDXID": "SPDXRef-Package-rust-crate-getrandom-2abbb17b3f6d7275",
+   "SPDXID": "SPDXRef-Package-rust-crate-getrandom-29523b1079586aa3",
    "versionInfo": "0.2.8",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -913,10 +913,10 @@
   },
   {
    "name": "h2",
-   "SPDXID": "SPDXRef-Package-rust-crate-h2-70bf7086612b736d",
+   "SPDXID": "SPDXRef-Package-rust-crate-h2-9e00655f89edbb10",
    "versionInfo": "0.3.16",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -935,10 +935,10 @@
   },
   {
    "name": "hashbrown",
-   "SPDXID": "SPDXRef-Package-rust-crate-hashbrown-5b3935d17bdac056",
+   "SPDXID": "SPDXRef-Package-rust-crate-hashbrown-a0e6e0eef3ba0fa1",
    "versionInfo": "0.12.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -957,10 +957,10 @@
   },
   {
    "name": "heck",
-   "SPDXID": "SPDXRef-Package-rust-crate-heck-2603056aa6be8c3d",
+   "SPDXID": "SPDXRef-Package-rust-crate-heck-5563597789c2530a",
    "versionInfo": "0.4.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -979,10 +979,10 @@
   },
   {
    "name": "hermit-abi",
-   "SPDXID": "SPDXRef-Package-rust-crate-hermit-abi-e398c4e950cdb453",
+   "SPDXID": "SPDXRef-Package-rust-crate-hermit-abi-f6301a99d1032eb7",
    "versionInfo": "0.2.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1026,10 +1026,10 @@
   },
   {
    "name": "hostname",
-   "SPDXID": "SPDXRef-Package-rust-crate-hostname-9d499c97f14efae4",
+   "SPDXID": "SPDXRef-Package-rust-crate-hostname-c12728c2d8c3e571",
    "versionInfo": "0.3.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1048,10 +1048,10 @@
   },
   {
    "name": "http",
-   "SPDXID": "SPDXRef-Package-rust-crate-http-2c7e00c5499ee2ef",
+   "SPDXID": "SPDXRef-Package-rust-crate-http-a1d40ad9a208e127",
    "versionInfo": "0.2.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1070,10 +1070,10 @@
   },
   {
    "name": "http-body",
-   "SPDXID": "SPDXRef-Package-rust-crate-http-body-3eec068555d54fe7",
+   "SPDXID": "SPDXRef-Package-rust-crate-http-body-f639d42880940200",
    "versionInfo": "0.4.5",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1117,10 +1117,10 @@
   },
   {
    "name": "httparse",
-   "SPDXID": "SPDXRef-Package-rust-crate-httparse-7a2fbaef1ea9023e",
+   "SPDXID": "SPDXRef-Package-rust-crate-httparse-dba0861038613f56",
    "versionInfo": "1.8.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1139,10 +1139,10 @@
   },
   {
    "name": "httpdate",
-   "SPDXID": "SPDXRef-Package-rust-crate-httpdate-7caf9b326c182ad9",
+   "SPDXID": "SPDXRef-Package-rust-crate-httpdate-6d5299e34fba8b80",
    "versionInfo": "1.0.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1161,10 +1161,10 @@
   },
   {
    "name": "hyper",
-   "SPDXID": "SPDXRef-Package-rust-crate-hyper-1e35e802d1d88459",
+   "SPDXID": "SPDXRef-Package-rust-crate-hyper-2d555459ef0857ab",
    "versionInfo": "0.14.25",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1183,10 +1183,10 @@
   },
   {
    "name": "hyper-rustls",
-   "SPDXID": "SPDXRef-Package-rust-crate-hyper-rustls-acac5f30408293a1",
+   "SPDXID": "SPDXRef-Package-rust-crate-hyper-rustls-85db6fd4498eb752",
    "versionInfo": "0.23.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1230,10 +1230,10 @@
   },
   {
    "name": "idna",
-   "SPDXID": "SPDXRef-Package-rust-crate-idna-131cae00a89ac88f",
+   "SPDXID": "SPDXRef-Package-rust-crate-idna-1184a497e59fd9c8",
    "versionInfo": "0.2.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1252,10 +1252,10 @@
   },
   {
    "name": "idna",
-   "SPDXID": "SPDXRef-Package-rust-crate-idna-5113fa10cf250ef6",
+   "SPDXID": "SPDXRef-Package-rust-crate-idna-c2376e0f433713c5",
    "versionInfo": "0.3.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1274,10 +1274,10 @@
   },
   {
    "name": "indexmap",
-   "SPDXID": "SPDXRef-Package-rust-crate-indexmap-c30c910172643616",
+   "SPDXID": "SPDXRef-Package-rust-crate-indexmap-86fda583d5746e44",
    "versionInfo": "1.9.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1295,33 +1295,11 @@
    ]
   },
   {
-   "name": "instant",
-   "SPDXID": "SPDXRef-Package-rust-crate-instant-53c1be90218be8",
-   "versionInfo": "0.1.12",
-   "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
-   "licenseConcluded": "NONE",
-   "licenseDeclared": "NONE",
-   "copyrightText": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:instant:instant:0.1.12:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "PACKAGE-MANAGER",
-     "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/instant@0.1.12"
-    }
-   ]
-  },
-  {
    "name": "ipconfig",
-   "SPDXID": "SPDXRef-Package-rust-crate-ipconfig-820926d514d5ac0c",
-   "versionInfo": "0.2.2",
+   "SPDXID": "SPDXRef-Package-rust-crate-ipconfig-6b48b54f865b9499",
+   "versionInfo": "0.3.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1329,21 +1307,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:ipconfig:ipconfig:0.2.2:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:ipconfig:ipconfig:0.3.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/ipconfig@0.2.2"
+     "referenceLocator": "pkg:cargo/ipconfig@0.3.1"
     }
    ]
   },
   {
    "name": "ipnet",
-   "SPDXID": "SPDXRef-Package-rust-crate-ipnet-e8ccbdf002bdd76a",
-   "versionInfo": "2.7.1",
+   "SPDXID": "SPDXRef-Package-rust-crate-ipnet-37bd904dd9327257",
+   "versionInfo": "2.7.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1351,21 +1329,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:ipnet:ipnet:2.7.1:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:ipnet:ipnet:2.7.2:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/ipnet@2.7.1"
+     "referenceLocator": "pkg:cargo/ipnet@2.7.2"
     }
    ]
   },
   {
    "name": "itoa",
-   "SPDXID": "SPDXRef-Package-rust-crate-itoa-d8ebc833a94aa40d",
+   "SPDXID": "SPDXRef-Package-rust-crate-itoa-73ee60926a85e72a",
    "versionInfo": "1.0.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1384,10 +1362,10 @@
   },
   {
    "name": "js-sys",
-   "SPDXID": "SPDXRef-Package-rust-crate-js-sys-9eed045fafdfbe9",
+   "SPDXID": "SPDXRef-Package-rust-crate-js-sys-1ac06482b678d462",
    "versionInfo": "0.3.61",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1431,10 +1409,10 @@
   },
   {
    "name": "lazy_static",
-   "SPDXID": "SPDXRef-Package-rust-crate-lazy-static-560f251ab3a4553c",
+   "SPDXID": "SPDXRef-Package-rust-crate-lazy-static-7fba28d6409a405f",
    "versionInfo": "1.4.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1478,10 +1456,10 @@
   },
   {
    "name": "libc",
-   "SPDXID": "SPDXRef-Package-rust-crate-libc-320167867ffa4a68",
+   "SPDXID": "SPDXRef-Package-rust-crate-libc-a56f5b55916baeca",
    "versionInfo": "0.2.140",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1500,10 +1478,10 @@
   },
   {
    "name": "linked-hash-map",
-   "SPDXID": "SPDXRef-Package-rust-crate-linked-hash-map-c4fb5a179567228e",
+   "SPDXID": "SPDXRef-Package-rust-crate-linked-hash-map-7c49cb5c6c195f9",
    "versionInfo": "0.5.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1567,10 +1545,10 @@
   },
   {
    "name": "lock_api",
-   "SPDXID": "SPDXRef-Package-rust-crate-lock-api-bb5e7de17a5b149c",
+   "SPDXID": "SPDXRef-Package-rust-crate-lock-api-da8d576cfee3925f",
    "versionInfo": "0.4.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1614,10 +1592,10 @@
   },
   {
    "name": "log",
-   "SPDXID": "SPDXRef-Package-rust-crate-log-595197d6fabc0f60",
+   "SPDXID": "SPDXRef-Package-rust-crate-log-21bb881e50a27635",
    "versionInfo": "0.4.17",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1636,10 +1614,10 @@
   },
   {
    "name": "lru-cache",
-   "SPDXID": "SPDXRef-Package-rust-crate-lru-cache-d178bdfc42f822bf",
+   "SPDXID": "SPDXRef-Package-rust-crate-lru-cache-829bc1782684ebb",
    "versionInfo": "0.1.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1683,10 +1661,10 @@
   },
   {
    "name": "match_cfg",
-   "SPDXID": "SPDXRef-Package-rust-crate-match-cfg-5357f8ebe9f1361c",
+   "SPDXID": "SPDXRef-Package-rust-crate-match-cfg-fca3cc856fb3d38b",
    "versionInfo": "0.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1730,10 +1708,10 @@
   },
   {
    "name": "matches",
-   "SPDXID": "SPDXRef-Package-rust-crate-matches-c10aa4147c8e384f",
+   "SPDXID": "SPDXRef-Package-rust-crate-matches-8e7cbcf13ad4fbd4",
    "versionInfo": "0.1.10",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1752,10 +1730,10 @@
   },
   {
    "name": "memchr",
-   "SPDXID": "SPDXRef-Package-rust-crate-memchr-b3b7075d81e4bb0e",
+   "SPDXID": "SPDXRef-Package-rust-crate-memchr-279c0d95700910fe",
    "versionInfo": "2.5.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1774,10 +1752,10 @@
   },
   {
    "name": "mime",
-   "SPDXID": "SPDXRef-Package-rust-crate-mime-1539aee5a4bebbb8",
+   "SPDXID": "SPDXRef-Package-rust-crate-mime-47c861498bd81dd6",
    "versionInfo": "0.3.17",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1796,10 +1774,10 @@
   },
   {
    "name": "mio",
-   "SPDXID": "SPDXRef-Package-rust-crate-mio-8b1a693c756523a3",
+   "SPDXID": "SPDXRef-Package-rust-crate-mio-1b7aa06b20dd34bf",
    "versionInfo": "0.8.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1818,10 +1796,10 @@
   },
   {
    "name": "netaddr",
-   "SPDXID": "SPDXRef-Package-python-netaddr-ff591238d9f59e20",
+   "SPDXID": "SPDXRef-Package-python-netaddr-426f6080ca685f47",
    "versionInfo": "0.8.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from installed python package manifest file: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/python/requirements.txt",
+   "sourceInfo": "acquired package info from installed python package manifest file: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/python/requirements.txt",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1895,10 +1873,10 @@
   },
   {
    "name": "num_cpus",
-   "SPDXID": "SPDXRef-Package-rust-crate-num-cpus-9eb48a479cc6b0e0",
+   "SPDXID": "SPDXRef-Package-rust-crate-num-cpus-b8c6b432b15dc60d",
    "versionInfo": "1.15.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1942,10 +1920,10 @@
   },
   {
    "name": "once_cell",
-   "SPDXID": "SPDXRef-Package-rust-crate-once-cell-82d467ff5686bf5",
+   "SPDXID": "SPDXRef-Package-rust-crate-once-cell-6f5f84832485c46a",
    "versionInfo": "1.17.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1989,57 +1967,10 @@
   },
   {
    "name": "parking_lot",
-   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-bd3efb1d8d52a1e1",
-   "versionInfo": "0.11.2",
-   "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
-   "licenseConcluded": "NONE",
-   "licenseDeclared": "NONE",
-   "copyrightText": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking-lot:parking-lot:0.11.2:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking-lot:parking_lot:0.11.2:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking_lot:parking-lot:0.11.2:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking_lot:parking_lot:0.11.2:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking:parking-lot:0.11.2:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking:parking_lot:0.11.2:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "PACKAGE-MANAGER",
-     "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/parking_lot@0.11.2"
-    }
-   ]
-  },
-  {
-   "name": "parking_lot",
-   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-8a906f0003235011",
+   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-e784c38e3feb8dac",
    "versionInfo": "0.12.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2083,77 +2014,10 @@
   },
   {
    "name": "parking_lot_core",
-   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-core-34763d9184513ae8",
-   "versionInfo": "0.8.6",
-   "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
-   "licenseConcluded": "NONE",
-   "licenseDeclared": "NONE",
-   "copyrightText": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking-lot-core:parking-lot-core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking-lot-core:parking_lot_core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking_lot_core:parking-lot-core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking_lot_core:parking_lot_core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking-lot:parking-lot-core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking-lot:parking_lot_core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking_lot:parking-lot-core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking_lot:parking_lot_core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking:parking-lot-core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:parking:parking_lot_core:0.8.6:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "PACKAGE-MANAGER",
-     "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/parking_lot_core@0.8.6"
-    }
-   ]
-  },
-  {
-   "name": "parking_lot_core",
-   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-core-9fe47ac83c327cc3",
+   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-core-df5a8faadc97626b",
    "versionInfo": "0.9.7",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2217,10 +2081,10 @@
   },
   {
    "name": "percent-encoding",
-   "SPDXID": "SPDXRef-Package-rust-crate-percent-encoding-fcad94f714fb04a",
+   "SPDXID": "SPDXRef-Package-rust-crate-percent-encoding-33b9329f6ddad54e",
    "versionInfo": "2.2.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2264,10 +2128,10 @@
   },
   {
    "name": "pin-project-lite",
-   "SPDXID": "SPDXRef-Package-rust-crate-pin-project-lite-2d99ef40b51192f",
+   "SPDXID": "SPDXRef-Package-rust-crate-pin-project-lite-e66f8b4c37b66d73",
    "versionInfo": "0.2.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2331,10 +2195,10 @@
   },
   {
    "name": "pin-utils",
-   "SPDXID": "SPDXRef-Package-rust-crate-pin-utils-7ea97d73234d502d",
+   "SPDXID": "SPDXRef-Package-rust-crate-pin-utils-50a115094b014faa",
    "versionInfo": "0.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2378,10 +2242,10 @@
   },
   {
    "name": "ppv-lite86",
-   "SPDXID": "SPDXRef-Package-rust-crate-ppv-lite86-d7f946efe0577d8a",
+   "SPDXID": "SPDXRef-Package-rust-crate-ppv-lite86-1fe29800dddd634b",
    "versionInfo": "0.2.17",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2425,10 +2289,10 @@
   },
   {
    "name": "proc-macro2",
-   "SPDXID": "SPDXRef-Package-rust-crate-proc-macro2-6ec754584a987fba",
-   "versionInfo": "1.0.54",
+   "SPDXID": "SPDXRef-Package-rust-crate-proc-macro2-bb987d2e31fcc53b",
+   "versionInfo": "1.0.55",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2436,46 +2300,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc-macro2:proc-macro2:1.0.54:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc-macro2:proc-macro2:1.0.55:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc-macro2:proc_macro2:1.0.54:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc-macro2:proc_macro2:1.0.55:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc_macro2:proc-macro2:1.0.54:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc_macro2:proc-macro2:1.0.55:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc_macro2:proc_macro2:1.0.54:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc_macro2:proc_macro2:1.0.55:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc:proc-macro2:1.0.54:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc:proc-macro2:1.0.55:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc:proc_macro2:1.0.54:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc:proc_macro2:1.0.55:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/proc-macro2@1.0.54"
+     "referenceLocator": "pkg:cargo/proc-macro2@1.0.55"
     }
    ]
   },
   {
    "name": "quick-error",
-   "SPDXID": "SPDXRef-Package-rust-crate-quick-error-50f05ed4ddd42953",
+   "SPDXID": "SPDXRef-Package-rust-crate-quick-error-159ee5246bec2cab",
    "versionInfo": "1.2.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2519,10 +2383,10 @@
   },
   {
    "name": "quote",
-   "SPDXID": "SPDXRef-Package-rust-crate-quote-9a7521abb7d64c68",
+   "SPDXID": "SPDXRef-Package-rust-crate-quote-70de5d0df0169429",
    "versionInfo": "1.0.26",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2541,10 +2405,10 @@
   },
   {
    "name": "rand",
-   "SPDXID": "SPDXRef-Package-rust-crate-rand-a474b480bac1da8d",
+   "SPDXID": "SPDXRef-Package-rust-crate-rand-d7cb57368b755717",
    "versionInfo": "0.8.5",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2563,10 +2427,10 @@
   },
   {
    "name": "rand_chacha",
-   "SPDXID": "SPDXRef-Package-rust-crate-rand-chacha-1c5c7c716d23f98c",
+   "SPDXID": "SPDXRef-Package-rust-crate-rand-chacha-3d6c33c0fc2eb62b",
    "versionInfo": "0.3.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2610,10 +2474,10 @@
   },
   {
    "name": "rand_core",
-   "SPDXID": "SPDXRef-Package-rust-crate-rand-core-d0e4223829db1c5b",
+   "SPDXID": "SPDXRef-Package-rust-crate-rand-core-9ee4f6ef9fd5b764",
    "versionInfo": "0.6.4",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2657,10 +2521,10 @@
   },
   {
    "name": "redox_syscall",
-   "SPDXID": "SPDXRef-Package-rust-crate-redox-syscall-20c55f4a9bf1cd58",
+   "SPDXID": "SPDXRef-Package-rust-crate-redox-syscall-3f4b493ea4c33802",
    "versionInfo": "0.2.16",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2704,10 +2568,10 @@
   },
   {
    "name": "reqwest",
-   "SPDXID": "SPDXRef-Package-rust-crate-reqwest-dd0bd0216e55dc57",
-   "versionInfo": "0.11.15",
+   "SPDXID": "SPDXRef-Package-rust-crate-reqwest-ab7c2643825787b",
+   "versionInfo": "0.11.16",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2715,21 +2579,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:reqwest:reqwest:0.11.15:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:reqwest:reqwest:0.11.16:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/reqwest@0.11.15"
+     "referenceLocator": "pkg:cargo/reqwest@0.11.16"
     }
    ]
   },
   {
    "name": "resolv-conf",
-   "SPDXID": "SPDXRef-Package-rust-crate-resolv-conf-cd0cbb3e1ddf50e8",
+   "SPDXID": "SPDXRef-Package-rust-crate-resolv-conf-8aeb7a163e1376b8",
    "versionInfo": "0.7.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2773,10 +2637,10 @@
   },
   {
    "name": "ring",
-   "SPDXID": "SPDXRef-Package-rust-crate-ring-c6e654af8857d065",
+   "SPDXID": "SPDXRef-Package-rust-crate-ring-2785021e113275ec",
    "versionInfo": "0.16.20",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2795,10 +2659,10 @@
   },
   {
    "name": "rustls",
-   "SPDXID": "SPDXRef-Package-rust-crate-rustls-f5edc3c91fa3309",
+   "SPDXID": "SPDXRef-Package-rust-crate-rustls-823a9afcf258232b",
    "versionInfo": "0.20.8",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2817,10 +2681,10 @@
   },
   {
    "name": "rustls-pemfile",
-   "SPDXID": "SPDXRef-Package-rust-crate-rustls-pemfile-533ed253913171d",
+   "SPDXID": "SPDXRef-Package-rust-crate-rustls-pemfile-b75e642562678cd2",
    "versionInfo": "1.0.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2864,10 +2728,10 @@
   },
   {
    "name": "rustportmap",
-   "SPDXID": "SPDXRef-Package-rust-crate-rustportmap-1629761150ca6445",
+   "SPDXID": "SPDXRef-Package-rust-crate-rustportmap-76e9d12a57e86eba",
    "versionInfo": "0.0.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2886,10 +2750,10 @@
   },
   {
    "name": "ryu",
-   "SPDXID": "SPDXRef-Package-rust-crate-ryu-39325d763e97edb1",
+   "SPDXID": "SPDXRef-Package-rust-crate-ryu-3f7209aefed94f79",
    "versionInfo": "1.0.13",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2908,10 +2772,10 @@
   },
   {
    "name": "scopeguard",
-   "SPDXID": "SPDXRef-Package-rust-crate-scopeguard-bbe76af1e956d124",
+   "SPDXID": "SPDXRef-Package-rust-crate-scopeguard-64c558c55f4151da",
    "versionInfo": "1.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2930,10 +2794,10 @@
   },
   {
    "name": "sct",
-   "SPDXID": "SPDXRef-Package-rust-crate-sct-a8a0fa96a7cf6a88",
+   "SPDXID": "SPDXRef-Package-rust-crate-sct-dfc935c6206ad0e4",
    "versionInfo": "0.7.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2952,10 +2816,10 @@
   },
   {
    "name": "serde",
-   "SPDXID": "SPDXRef-Package-rust-crate-serde-f49dba9d39327cfb",
-   "versionInfo": "1.0.158",
+   "SPDXID": "SPDXRef-Package-rust-crate-serde-ca5ab9316d24e6b0",
+   "versionInfo": "1.0.159",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2963,21 +2827,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde:1.0.158:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde:1.0.159:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/serde@1.0.158"
+     "referenceLocator": "pkg:cargo/serde@1.0.159"
     }
    ]
   },
   {
    "name": "serde_derive",
-   "SPDXID": "SPDXRef-Package-rust-crate-serde-derive-42b332df9811f0d3",
-   "versionInfo": "1.0.158",
+   "SPDXID": "SPDXRef-Package-rust-crate-serde-derive-3ee8edac64c74bbf",
+   "versionInfo": "1.0.159",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2985,46 +2849,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde-derive:serde-derive:1.0.158:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde-derive:serde-derive:1.0.159:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde-derive:serde_derive:1.0.158:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde-derive:serde_derive:1.0.159:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde_derive:serde-derive:1.0.158:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde_derive:serde-derive:1.0.159:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde_derive:serde_derive:1.0.158:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde_derive:serde_derive:1.0.159:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde-derive:1.0.158:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde-derive:1.0.159:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde_derive:1.0.158:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde_derive:1.0.159:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/serde_derive@1.0.158"
+     "referenceLocator": "pkg:cargo/serde_derive@1.0.159"
     }
    ]
   },
   {
    "name": "serde_json",
-   "SPDXID": "SPDXRef-Package-rust-crate-serde-json-4f3cf401d6ec0f2b",
-   "versionInfo": "1.0.94",
+   "SPDXID": "SPDXRef-Package-rust-crate-serde-json-de78443a084113cb",
+   "versionInfo": "1.0.95",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3032,46 +2896,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde-json:serde-json:1.0.94:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde-json:serde-json:1.0.95:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde-json:serde_json:1.0.94:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde-json:serde_json:1.0.95:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde_json:serde-json:1.0.94:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde_json:serde-json:1.0.95:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde_json:serde_json:1.0.94:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde_json:serde_json:1.0.95:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde-json:1.0.94:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde-json:1.0.95:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde_json:1.0.94:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde_json:1.0.95:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/serde_json@1.0.94"
+     "referenceLocator": "pkg:cargo/serde_json@1.0.95"
     }
    ]
   },
   {
    "name": "serde_urlencoded",
-   "SPDXID": "SPDXRef-Package-rust-crate-serde-urlencoded-47f951ca033c994e",
+   "SPDXID": "SPDXRef-Package-rust-crate-serde-urlencoded-5d9c3d978e7c6f8c",
    "versionInfo": "0.7.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3115,10 +2979,10 @@
   },
   {
    "name": "signal-hook-registry",
-   "SPDXID": "SPDXRef-Package-rust-crate-signal-hook-registry-4d4f8b03caf6051b",
+   "SPDXID": "SPDXRef-Package-rust-crate-signal-hook-registry-9659e79659756409",
    "versionInfo": "1.4.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3182,10 +3046,10 @@
   },
   {
    "name": "slab",
-   "SPDXID": "SPDXRef-Package-rust-crate-slab-62c9e61adda80134",
+   "SPDXID": "SPDXRef-Package-rust-crate-slab-dde4de7e94a8ced9",
    "versionInfo": "0.4.8",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3204,10 +3068,10 @@
   },
   {
    "name": "smallvec",
-   "SPDXID": "SPDXRef-Package-rust-crate-smallvec-e61556ef745a4f1",
+   "SPDXID": "SPDXRef-Package-rust-crate-smallvec-f199df4333a69219",
    "versionInfo": "1.10.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3226,32 +3090,10 @@
   },
   {
    "name": "socket2",
-   "SPDXID": "SPDXRef-Package-rust-crate-socket2-5f0c44e4d505e342",
-   "versionInfo": "0.3.19",
-   "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
-   "licenseConcluded": "NONE",
-   "licenseDeclared": "NONE",
-   "copyrightText": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:socket2:socket2:0.3.19:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "PACKAGE-MANAGER",
-     "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/socket2@0.3.19"
-    }
-   ]
-  },
-  {
-   "name": "socket2",
-   "SPDXID": "SPDXRef-Package-rust-crate-socket2-edc0474c7358e6a8",
+   "SPDXID": "SPDXRef-Package-rust-crate-socket2-9d4b4ca94e998619",
    "versionInfo": "0.4.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3270,10 +3112,10 @@
   },
   {
    "name": "spin",
-   "SPDXID": "SPDXRef-Package-rust-crate-spin-8b087b6f2c97099e",
+   "SPDXID": "SPDXRef-Package-rust-crate-spin-d75dfa20e492b5de",
    "versionInfo": "0.5.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3292,10 +3134,10 @@
   },
   {
    "name": "syn",
-   "SPDXID": "SPDXRef-Package-rust-crate-syn-1943a66497f87",
+   "SPDXID": "SPDXRef-Package-rust-crate-syn-7e4fef4744996e9a",
    "versionInfo": "1.0.109",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3314,10 +3156,10 @@
   },
   {
    "name": "syn",
-   "SPDXID": "SPDXRef-Package-rust-crate-syn-11a5cd7f99f378c5",
-   "versionInfo": "2.0.10",
+   "SPDXID": "SPDXRef-Package-rust-crate-syn-e8814d04e0d9d0d9",
+   "versionInfo": "2.0.13",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3325,21 +3167,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:syn:syn:2.0.10:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:syn:syn:2.0.13:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/syn@2.0.10"
+     "referenceLocator": "pkg:cargo/syn@2.0.13"
     }
    ]
   },
   {
    "name": "thiserror",
-   "SPDXID": "SPDXRef-Package-rust-crate-thiserror-3edbcfafa4b769f4",
+   "SPDXID": "SPDXRef-Package-rust-crate-thiserror-33103c33ce790fe5",
    "versionInfo": "1.0.40",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3358,10 +3200,10 @@
   },
   {
    "name": "thiserror-impl",
-   "SPDXID": "SPDXRef-Package-rust-crate-thiserror-impl-481aede35708825",
+   "SPDXID": "SPDXRef-Package-rust-crate-thiserror-impl-b7e48e86f5a6cc59",
    "versionInfo": "1.0.40",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3405,10 +3247,10 @@
   },
   {
    "name": "tinyvec",
-   "SPDXID": "SPDXRef-Package-rust-crate-tinyvec-6a4a59e36dc27636",
+   "SPDXID": "SPDXRef-Package-rust-crate-tinyvec-b56cdb17d5b1d816",
    "versionInfo": "1.6.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3427,10 +3269,10 @@
   },
   {
    "name": "tinyvec_macros",
-   "SPDXID": "SPDXRef-Package-rust-crate-tinyvec-macros-e59b227d5319288f",
+   "SPDXID": "SPDXRef-Package-rust-crate-tinyvec-macros-c96e5318f96f1469",
    "versionInfo": "0.1.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3474,10 +3316,10 @@
   },
   {
    "name": "tokio",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-526e556bb91280a5",
-   "versionInfo": "1.26.0",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-df84f96a8120f861",
+   "versionInfo": "1.27.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3485,21 +3327,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio:1.26.0:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio:1.27.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/tokio@1.26.0"
+     "referenceLocator": "pkg:cargo/tokio@1.27.0"
     }
    ]
   },
   {
    "name": "tokio-macros",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-macros-b9ffc52947220f4e",
-   "versionInfo": "1.8.2",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-macros-c0e4b332c82c100",
+   "versionInfo": "2.0.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3507,46 +3349,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio-macros:tokio-macros:1.8.2:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio-macros:tokio-macros:2.0.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio-macros:tokio_macros:1.8.2:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio-macros:tokio_macros:2.0.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio_macros:tokio-macros:1.8.2:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio_macros:tokio-macros:2.0.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio_macros:tokio_macros:1.8.2:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio_macros:tokio_macros:2.0.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio-macros:1.8.2:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio-macros:2.0.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio_macros:1.8.2:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio_macros:2.0.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/tokio-macros@1.8.2"
+     "referenceLocator": "pkg:cargo/tokio-macros@2.0.0"
     }
    ]
   },
   {
    "name": "tokio-rustls",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-rustls-90813007e7a8ca41",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-rustls-3073e800ebf836e9",
    "versionInfo": "0.23.4",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3590,10 +3432,10 @@
   },
   {
    "name": "tokio-stream",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-stream-14a7f96a46aa51f4",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-stream-ce5c29b6467165db",
    "versionInfo": "0.1.12",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3637,10 +3479,10 @@
   },
   {
    "name": "tokio-util",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-util-4396c976b6f0e5b8",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-util-fb06751dfc8eb089",
    "versionInfo": "0.7.7",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3684,10 +3526,10 @@
   },
   {
    "name": "tower-service",
-   "SPDXID": "SPDXRef-Package-rust-crate-tower-service-d7ada2e1461b6233",
+   "SPDXID": "SPDXRef-Package-rust-crate-tower-service-bf05b3ba700e388b",
    "versionInfo": "0.3.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3731,10 +3573,10 @@
   },
   {
    "name": "tracing",
-   "SPDXID": "SPDXRef-Package-rust-crate-tracing-23b753197f9f4d62",
+   "SPDXID": "SPDXRef-Package-rust-crate-tracing-f79cb4ed141cda3a",
    "versionInfo": "0.1.37",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3752,11 +3594,58 @@
    ]
   },
   {
+   "name": "tracing-attributes",
+   "SPDXID": "SPDXRef-Package-rust-crate-tracing-attributes-76fbd04479561225",
+   "versionInfo": "0.1.23",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:tracing-attributes:tracing-attributes:0.1.23:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:tracing-attributes:tracing_attributes:0.1.23:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:tracing_attributes:tracing-attributes:0.1.23:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:tracing_attributes:tracing_attributes:0.1.23:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:tracing:tracing-attributes:0.1.23:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:tracing:tracing_attributes:0.1.23:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/tracing-attributes@0.1.23"
+    }
+   ]
+  },
+  {
    "name": "tracing-core",
-   "SPDXID": "SPDXRef-Package-rust-crate-tracing-core-8c415a5643103d68",
+   "SPDXID": "SPDXRef-Package-rust-crate-tracing-core-10f8d3a0a618e855",
    "versionInfo": "0.1.30",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3800,10 +3689,10 @@
   },
   {
    "name": "trust-dns-proto",
-   "SPDXID": "SPDXRef-Package-rust-crate-trust-dns-proto-e0a3b1784f80fced",
-   "versionInfo": "0.20.4",
+   "SPDXID": "SPDXRef-Package-rust-crate-trust-dns-proto-938bc7dedfe5de55",
+   "versionInfo": "0.22.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3811,66 +3700,66 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust-dns-proto:trust-dns-proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust-dns-proto:trust-dns-proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust-dns-proto:trust_dns_proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust-dns-proto:trust_dns_proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust_dns_proto:trust-dns-proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust_dns_proto:trust-dns-proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust_dns_proto:trust_dns_proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust_dns_proto:trust_dns_proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust-dns:trust-dns-proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust-dns:trust-dns-proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust-dns:trust_dns_proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust-dns:trust_dns_proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust_dns:trust-dns-proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust_dns:trust-dns-proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust_dns:trust_dns_proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust_dns:trust_dns_proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust:trust-dns-proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust:trust-dns-proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust:trust_dns_proto:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust:trust_dns_proto:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/trust-dns-proto@0.20.4"
+     "referenceLocator": "pkg:cargo/trust-dns-proto@0.22.0"
     }
    ]
   },
   {
    "name": "trust-dns-resolver",
-   "SPDXID": "SPDXRef-Package-rust-crate-trust-dns-resolver-12c250b1ae2df546",
-   "versionInfo": "0.20.4",
+   "SPDXID": "SPDXRef-Package-rust-crate-trust-dns-resolver-3e08b18a11e7e956",
+   "versionInfo": "0.22.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3878,66 +3767,66 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust-dns-resolver:trust-dns-resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust-dns-resolver:trust-dns-resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust-dns-resolver:trust_dns_resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust-dns-resolver:trust_dns_resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust_dns_resolver:trust-dns-resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust_dns_resolver:trust-dns-resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust_dns_resolver:trust_dns_resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust_dns_resolver:trust_dns_resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust-dns:trust-dns-resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust-dns:trust-dns-resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust-dns:trust_dns_resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust-dns:trust_dns_resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust_dns:trust-dns-resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust_dns:trust-dns-resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust_dns:trust_dns_resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust_dns:trust_dns_resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust:trust-dns-resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust:trust-dns-resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:trust:trust_dns_resolver:0.20.4:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:trust:trust_dns_resolver:0.22.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/trust-dns-resolver@0.20.4"
+     "referenceLocator": "pkg:cargo/trust-dns-resolver@0.22.0"
     }
    ]
   },
   {
    "name": "try-lock",
-   "SPDXID": "SPDXRef-Package-rust-crate-try-lock-9cd9a5e11f1163fc",
+   "SPDXID": "SPDXRef-Package-rust-crate-try-lock-348c1b83494a1eeb",
    "versionInfo": "0.2.4",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3981,10 +3870,10 @@
   },
   {
    "name": "unicode-bidi",
-   "SPDXID": "SPDXRef-Package-rust-crate-unicode-bidi-e3d27bdf61156476",
+   "SPDXID": "SPDXRef-Package-rust-crate-unicode-bidi-e82445d65eadcf4d",
    "versionInfo": "0.3.13",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4028,10 +3917,10 @@
   },
   {
    "name": "unicode-ident",
-   "SPDXID": "SPDXRef-Package-rust-crate-unicode-ident-9169721a5fd1dcf7",
+   "SPDXID": "SPDXRef-Package-rust-crate-unicode-ident-87e6729db843f259",
    "versionInfo": "1.0.8",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4075,10 +3964,10 @@
   },
   {
    "name": "unicode-normalization",
-   "SPDXID": "SPDXRef-Package-rust-crate-unicode-normalization-cc83abc84d03bfa6",
+   "SPDXID": "SPDXRef-Package-rust-crate-unicode-normalization-20c91e1126bd5e2",
    "versionInfo": "0.1.22",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4122,10 +4011,10 @@
   },
   {
    "name": "untrusted",
-   "SPDXID": "SPDXRef-Package-rust-crate-untrusted-a37ad7d05512094f",
+   "SPDXID": "SPDXRef-Package-rust-crate-untrusted-5a82d45406901155",
    "versionInfo": "0.7.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4144,10 +4033,10 @@
   },
   {
    "name": "url",
-   "SPDXID": "SPDXRef-Package-rust-crate-url-c4f83824bc98681",
+   "SPDXID": "SPDXRef-Package-rust-crate-url-30171cfc4a2f650f",
    "versionInfo": "2.3.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4166,10 +4055,10 @@
   },
   {
    "name": "want",
-   "SPDXID": "SPDXRef-Package-rust-crate-want-6c4a1c8c83a3e71d",
+   "SPDXID": "SPDXRef-Package-rust-crate-want-46aba2eda752b0d4",
    "versionInfo": "0.3.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4188,10 +4077,10 @@
   },
   {
    "name": "wasi",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasi-3913297b7c07868d",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasi-5bbfb883b65bfc28",
    "versionInfo": "0.11.0+wasi-snapshot-preview1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4210,10 +4099,10 @@
   },
   {
    "name": "wasm-bindgen",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-c371580d3398529c",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-fa9eb3d617755ae3",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4257,10 +4146,10 @@
   },
   {
    "name": "wasm-bindgen-backend",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-backend-1157e99341b2dd70",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-backend-c1b39ce18a3b7439",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4324,10 +4213,10 @@
   },
   {
    "name": "wasm-bindgen-futures",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-futures-a0ac98d56aab0b92",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-futures-e333c29e43791e2b",
    "versionInfo": "0.4.34",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4391,10 +4280,10 @@
   },
   {
    "name": "wasm-bindgen-macro",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-499c0b3d75c5ac99",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-d82c0ba0943718ec",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4458,10 +4347,10 @@
   },
   {
    "name": "wasm-bindgen-macro-support",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-support-1cba337c930b05c9",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-support-c69932e7e7e2ac7a",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4545,10 +4434,10 @@
   },
   {
    "name": "wasm-bindgen-shared",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-shared-5f0ffd41af560c46",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-shared-a30f5cc8210c59ea",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4612,10 +4501,10 @@
   },
   {
    "name": "web-sys",
-   "SPDXID": "SPDXRef-Package-rust-crate-web-sys-7c9964d291fc8601",
+   "SPDXID": "SPDXRef-Package-rust-crate-web-sys-519a267c06c65ced",
    "versionInfo": "0.3.61",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4659,10 +4548,10 @@
   },
   {
    "name": "webpki",
-   "SPDXID": "SPDXRef-Package-rust-crate-webpki-bc765abe5d3fedac",
+   "SPDXID": "SPDXRef-Package-rust-crate-webpki-a2b215a97238b778",
    "versionInfo": "0.22.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4681,10 +4570,10 @@
   },
   {
    "name": "webpki-roots",
-   "SPDXID": "SPDXRef-Package-rust-crate-webpki-roots-a3c1019ac18d0a37",
+   "SPDXID": "SPDXRef-Package-rust-crate-webpki-roots-b7af12ca2a8ba818",
    "versionInfo": "0.22.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4728,10 +4617,10 @@
   },
   {
    "name": "widestring",
-   "SPDXID": "SPDXRef-Package-rust-crate-widestring-56068ffe9c646d6e",
-   "versionInfo": "0.4.3",
+   "SPDXID": "SPDXRef-Package-rust-crate-widestring-73bb536eeb6260f9",
+   "versionInfo": "0.5.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4739,21 +4628,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:widestring:widestring:0.4.3:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:widestring:widestring:0.5.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/widestring@0.4.3"
+     "referenceLocator": "pkg:cargo/widestring@0.5.1"
     }
    ]
   },
   {
    "name": "winapi",
-   "SPDXID": "SPDXRef-Package-rust-crate-winapi-ecde93ff2eab4ed0",
+   "SPDXID": "SPDXRef-Package-rust-crate-winapi-7d97254a759ed10e",
    "versionInfo": "0.3.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4772,10 +4661,10 @@
   },
   {
    "name": "winapi-i686-pc-windows-gnu",
-   "SPDXID": "SPDXRef-Package-rust-crate-winapi-i686-pc-windows-gnu-e8e5eafbb5b3e2a9",
+   "SPDXID": "SPDXRef-Package-rust-crate-winapi-i686-pc-windows-gnu-f260f47560908290",
    "versionInfo": "0.4.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4879,10 +4768,10 @@
   },
   {
    "name": "winapi-x86_64-pc-windows-gnu",
-   "SPDXID": "SPDXRef-Package-rust-crate-winapi-x86-64-pc-windows-gnu-edd351d570e6d5f9",
+   "SPDXID": "SPDXRef-Package-rust-crate-winapi-x86-64-pc-windows-gnu-c9c9f7979044159f",
    "versionInfo": "0.4.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5121,10 +5010,10 @@
   },
   {
    "name": "windows-sys",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-sys-bb9f88393e5e065d",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-sys-4ce8b93560f68034",
    "versionInfo": "0.45.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5168,10 +5057,10 @@
   },
   {
    "name": "windows-targets",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-targets-ff25f98fe8523d9b",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-targets-35bfce5988ff3f60",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5215,10 +5104,10 @@
   },
   {
    "name": "windows_aarch64_gnullvm",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-86f87ff938b98ee3",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-28511468f8c30ccc",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5282,10 +5171,10 @@
   },
   {
    "name": "windows_aarch64_msvc",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-msvc-9ad9fac1e0d1e2ce",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-msvc-85094e9aacfd1c03",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5349,10 +5238,10 @@
   },
   {
    "name": "windows_i686_gnu",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-gnu-57a193b17532427a",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-gnu-7805cb6a250c6426",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5416,10 +5305,10 @@
   },
   {
    "name": "windows_i686_msvc",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-msvc-8fc3c57740ff76b2",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-msvc-e5843406db1557e8",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5483,10 +5372,10 @@
   },
   {
    "name": "windows_x86_64_gnu",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnu-1ab906749dfd70f3",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnu-eed4b0592310baa0",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5570,10 +5459,10 @@
   },
   {
    "name": "windows_x86_64_gnullvm",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-ac08705fa3b751b8",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-9491c3b1b42d3681",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5657,10 +5546,10 @@
   },
   {
    "name": "windows_x86_64_msvc",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-msvc-254b955f81c836f1",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-msvc-75fba80dba934d4f",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5744,10 +5633,10 @@
   },
   {
    "name": "winreg",
-   "SPDXID": "SPDXRef-Package-rust-crate-winreg-e33389529ea1fbb6",
+   "SPDXID": "SPDXRef-Package-rust-crate-winreg-d69bb166fa568cb3",
    "versionInfo": "0.10.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5761,28 +5650,6 @@
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
      "referenceLocator": "pkg:cargo/winreg@0.10.1"
-    }
-   ]
-  },
-  {
-   "name": "winreg",
-   "SPDXID": "SPDXRef-Package-rust-crate-winreg-4ce3952a0f253646",
-   "versionInfo": "0.6.2",
-   "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
-   "licenseConcluded": "NONE",
-   "licenseDeclared": "NONE",
-   "copyrightText": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:winreg:winreg:0.6.2:*:*:*:*:*:*:*"
-    },
-    {
-     "referenceCategory": "PACKAGE-MANAGER",
-     "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/winreg@0.6.2"
     }
    ]
   }
