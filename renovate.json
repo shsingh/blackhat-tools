@@ -1,8 +1,9 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base",
-              ":dependencyDashboard",
-              ":assignee(shsingh)",
-              ":reviewer(shsingh)"
-             ]
+            "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+            "extends": [
+                        "config:base",
+                        ":dependencyDashboard",
+                        ":assignee(shsingh)",
+                        ":reviewer(shsingh)"
+            ]
 }
