@@ -23,3 +23,6 @@ repos:
         entry: gitleaks protect --verbose --redact --staged
         language: golang
         pass_filenames: false
+ci:
+  autofix_prs: false
+  submodules: false
