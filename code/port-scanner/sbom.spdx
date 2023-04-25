@@ -3,22 +3,22 @@
  "dataLicense": "CC0-1.0",
  "SPDXID": "SPDXRef-DOCUMENT",
  "name": ".",
- "documentNamespace": "https://anchore.com/syft/dir/03477b7c-10d2-450f-b3be-7bfbfa0e7c04",
+ "documentNamespace": "https://anchore.com/syft/dir/d410e927-177f-46f8-8af7-c0db711d8a3e",
  "creationInfo": {
   "licenseListVersion": "3.20",
   "creators": [
    "Organization: Anchore, Inc",
-   "Tool: syft-0.76.0"
+   "Tool: syft-0.79.0"
   ],
-  "created": "2023-04-03T04:01:05Z"
+  "created": "2023-04-25T00:57:09Z"
  },
  "packages": [
   {
    "name": "anyhow",
-   "SPDXID": "SPDXRef-Package-rust-crate-anyhow-913ee424aee55619",
+   "SPDXID": "SPDXRef-Package-rust-crate-anyhow-483258eb862ccb5b",
    "versionInfo": "1.0.70",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -37,10 +37,10 @@
   },
   {
    "name": "async-trait",
-   "SPDXID": "SPDXRef-Package-rust-crate-async-trait-8ef420a37e450349",
+   "SPDXID": "SPDXRef-Package-rust-crate-async-trait-813ebfd253ca7840",
    "versionInfo": "0.1.68",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -84,10 +84,10 @@
   },
   {
    "name": "autocfg",
-   "SPDXID": "SPDXRef-Package-rust-crate-autocfg-aea3d5fea46f71d1",
+   "SPDXID": "SPDXRef-Package-rust-crate-autocfg-4bc355a653a8eb2c",
    "versionInfo": "1.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -106,10 +106,10 @@
   },
   {
    "name": "base64",
-   "SPDXID": "SPDXRef-Package-rust-crate-base64-d72e4c46816bfc02",
+   "SPDXID": "SPDXRef-Package-rust-crate-base64-914945d0d4cc640f",
    "versionInfo": "0.21.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -128,10 +128,10 @@
   },
   {
    "name": "bitflags",
-   "SPDXID": "SPDXRef-Package-rust-crate-bitflags-c16a79d67af71df8",
+   "SPDXID": "SPDXRef-Package-rust-crate-bitflags-54dc26c84085a134",
    "versionInfo": "1.3.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -150,10 +150,10 @@
   },
   {
    "name": "bumpalo",
-   "SPDXID": "SPDXRef-Package-rust-crate-bumpalo-b7843d3c5cdcf24c",
-   "versionInfo": "3.12.0",
+   "SPDXID": "SPDXRef-Package-rust-crate-bumpalo-8334e3b8fce63da0",
+   "versionInfo": "3.12.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -161,21 +161,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:bumpalo:bumpalo:3.12.0:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:bumpalo:bumpalo:3.12.1:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/bumpalo@3.12.0"
+     "referenceLocator": "pkg:cargo/bumpalo@3.12.1"
     }
    ]
   },
   {
    "name": "bytes",
-   "SPDXID": "SPDXRef-Package-rust-crate-bytes-5ff90bc43c042ca1",
+   "SPDXID": "SPDXRef-Package-rust-crate-bytes-db0ce8c4df9895a0",
    "versionInfo": "1.4.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -194,10 +194,10 @@
   },
   {
    "name": "cc",
-   "SPDXID": "SPDXRef-Package-rust-crate-cc-3de81f3ed0abc997",
+   "SPDXID": "SPDXRef-Package-rust-crate-cc-4b0a1e9c5e38c5a6",
    "versionInfo": "1.0.79",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -216,10 +216,10 @@
   },
   {
    "name": "cfg-if",
-   "SPDXID": "SPDXRef-Package-rust-crate-cfg-if-2d179bd6fd2ff541",
+   "SPDXID": "SPDXRef-Package-rust-crate-cfg-if-bc2193eba7870a0c",
    "versionInfo": "1.0.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -263,10 +263,10 @@
   },
   {
    "name": "data-encoding",
-   "SPDXID": "SPDXRef-Package-rust-crate-data-encoding-130956541aff2e1f",
+   "SPDXID": "SPDXRef-Package-rust-crate-data-encoding-4d662c914ac1a0cf",
    "versionInfo": "2.3.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -310,10 +310,10 @@
   },
   {
    "name": "encoding_rs",
-   "SPDXID": "SPDXRef-Package-rust-crate-encoding-rs-ffed5f3e7d51dc5",
+   "SPDXID": "SPDXRef-Package-rust-crate-encoding-rs-f70fab1e6a5381c8",
    "versionInfo": "0.8.32",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -357,10 +357,10 @@
   },
   {
    "name": "enum-as-inner",
-   "SPDXID": "SPDXRef-Package-rust-crate-enum-as-inner-fc0b4f8f79737d22",
+   "SPDXID": "SPDXRef-Package-rust-crate-enum-as-inner-913ce12a34e65a23",
    "versionInfo": "0.5.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -424,10 +424,10 @@
   },
   {
    "name": "fnv",
-   "SPDXID": "SPDXRef-Package-rust-crate-fnv-4755727211740746",
+   "SPDXID": "SPDXRef-Package-rust-crate-fnv-ae7fd83d847becb",
    "versionInfo": "1.0.7",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -446,10 +446,10 @@
   },
   {
    "name": "form_urlencoded",
-   "SPDXID": "SPDXRef-Package-rust-crate-form-urlencoded-822708e37e21a07d",
+   "SPDXID": "SPDXRef-Package-rust-crate-form-urlencoded-dca550574530ca74",
    "versionInfo": "1.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -493,10 +493,10 @@
   },
   {
    "name": "futures",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-5d6e64076029f5cd",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-edfdfbd363472146",
    "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -515,10 +515,10 @@
   },
   {
    "name": "futures-channel",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-channel-16aff81b9da65881",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-channel-9a21f7abbdf242d",
    "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -562,10 +562,10 @@
   },
   {
    "name": "futures-core",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-core-70f4a06ad20a676a",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-core-121762a3fad7ff0e",
    "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -609,10 +609,10 @@
   },
   {
    "name": "futures-executor",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-executor-ed1a84d79b280e23",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-executor-108ac596626c7aa3",
    "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -656,10 +656,10 @@
   },
   {
    "name": "futures-io",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-io-a88f7a26308250c7",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-io-57a03ed574389c0d",
    "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -703,10 +703,10 @@
   },
   {
    "name": "futures-macro",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-macro-28074495644661bd",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-macro-aa70d18ebbf4b69b",
    "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -750,10 +750,10 @@
   },
   {
    "name": "futures-sink",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-sink-630f0ad322c9c348",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-sink-ec30e6a71f08d921",
    "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -797,10 +797,10 @@
   },
   {
    "name": "futures-task",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-task-ca6e0575d59c9cd8",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-task-a77e0a380ecc345b",
    "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -844,10 +844,10 @@
   },
   {
    "name": "futures-util",
-   "SPDXID": "SPDXRef-Package-rust-crate-futures-util-1ab1c323a21adab6",
+   "SPDXID": "SPDXRef-Package-rust-crate-futures-util-52579beffd6e3605",
    "versionInfo": "0.3.28",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -891,10 +891,10 @@
   },
   {
    "name": "getrandom",
-   "SPDXID": "SPDXRef-Package-rust-crate-getrandom-29523b1079586aa3",
-   "versionInfo": "0.2.8",
+   "SPDXID": "SPDXRef-Package-rust-crate-getrandom-a1d2a0e0311eecfc",
+   "versionInfo": "0.2.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -902,21 +902,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:getrandom:getrandom:0.2.8:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:getrandom:getrandom:0.2.9:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/getrandom@0.2.8"
+     "referenceLocator": "pkg:cargo/getrandom@0.2.9"
     }
    ]
   },
   {
    "name": "h2",
-   "SPDXID": "SPDXRef-Package-rust-crate-h2-9e00655f89edbb10",
-   "versionInfo": "0.3.16",
+   "SPDXID": "SPDXRef-Package-rust-crate-h2-e6a46292d0e2c6f9",
+   "versionInfo": "0.3.18",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -924,21 +924,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:h2:h2:0.3.16:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:h2:h2:0.3.18:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/h2@0.3.16"
+     "referenceLocator": "pkg:cargo/h2@0.3.18"
     }
    ]
   },
   {
    "name": "hashbrown",
-   "SPDXID": "SPDXRef-Package-rust-crate-hashbrown-a0e6e0eef3ba0fa1",
+   "SPDXID": "SPDXRef-Package-rust-crate-hashbrown-d8cafb9b838e45d8",
    "versionInfo": "0.12.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -957,10 +957,10 @@
   },
   {
    "name": "heck",
-   "SPDXID": "SPDXRef-Package-rust-crate-heck-5563597789c2530a",
+   "SPDXID": "SPDXRef-Package-rust-crate-heck-834d0358703afe41",
    "versionInfo": "0.4.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -979,10 +979,10 @@
   },
   {
    "name": "hermit-abi",
-   "SPDXID": "SPDXRef-Package-rust-crate-hermit-abi-f6301a99d1032eb7",
+   "SPDXID": "SPDXRef-Package-rust-crate-hermit-abi-fd824b521b92e99a",
    "versionInfo": "0.2.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1026,10 +1026,10 @@
   },
   {
    "name": "hostname",
-   "SPDXID": "SPDXRef-Package-rust-crate-hostname-c12728c2d8c3e571",
+   "SPDXID": "SPDXRef-Package-rust-crate-hostname-94981164a58590fb",
    "versionInfo": "0.3.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1048,10 +1048,10 @@
   },
   {
    "name": "http",
-   "SPDXID": "SPDXRef-Package-rust-crate-http-a1d40ad9a208e127",
+   "SPDXID": "SPDXRef-Package-rust-crate-http-6eb2b504eec9a584",
    "versionInfo": "0.2.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1070,10 +1070,10 @@
   },
   {
    "name": "http-body",
-   "SPDXID": "SPDXRef-Package-rust-crate-http-body-f639d42880940200",
+   "SPDXID": "SPDXRef-Package-rust-crate-http-body-e344e928e7f7a84b",
    "versionInfo": "0.4.5",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1117,10 +1117,10 @@
   },
   {
    "name": "httparse",
-   "SPDXID": "SPDXRef-Package-rust-crate-httparse-dba0861038613f56",
+   "SPDXID": "SPDXRef-Package-rust-crate-httparse-8e25027c3fb579",
    "versionInfo": "1.8.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1139,10 +1139,10 @@
   },
   {
    "name": "httpdate",
-   "SPDXID": "SPDXRef-Package-rust-crate-httpdate-6d5299e34fba8b80",
+   "SPDXID": "SPDXRef-Package-rust-crate-httpdate-5fa8815966a4c643",
    "versionInfo": "1.0.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1161,10 +1161,10 @@
   },
   {
    "name": "hyper",
-   "SPDXID": "SPDXRef-Package-rust-crate-hyper-2d555459ef0857ab",
-   "versionInfo": "0.14.25",
+   "SPDXID": "SPDXRef-Package-rust-crate-hyper-2482962eb92cee75",
+   "versionInfo": "0.14.26",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1172,21 +1172,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:hyper:hyper:0.14.25:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:hyper:hyper:0.14.26:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/hyper@0.14.25"
+     "referenceLocator": "pkg:cargo/hyper@0.14.26"
     }
    ]
   },
   {
    "name": "hyper-rustls",
-   "SPDXID": "SPDXRef-Package-rust-crate-hyper-rustls-85db6fd4498eb752",
+   "SPDXID": "SPDXRef-Package-rust-crate-hyper-rustls-d173a473d983f766",
    "versionInfo": "0.23.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1230,10 +1230,10 @@
   },
   {
    "name": "idna",
-   "SPDXID": "SPDXRef-Package-rust-crate-idna-1184a497e59fd9c8",
+   "SPDXID": "SPDXRef-Package-rust-crate-idna-1f831346d6eb8426",
    "versionInfo": "0.2.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1252,10 +1252,10 @@
   },
   {
    "name": "idna",
-   "SPDXID": "SPDXRef-Package-rust-crate-idna-c2376e0f433713c5",
+   "SPDXID": "SPDXRef-Package-rust-crate-idna-5efa34e4d287099e",
    "versionInfo": "0.3.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1274,10 +1274,10 @@
   },
   {
    "name": "indexmap",
-   "SPDXID": "SPDXRef-Package-rust-crate-indexmap-86fda583d5746e44",
+   "SPDXID": "SPDXRef-Package-rust-crate-indexmap-1b757edb3773cc47",
    "versionInfo": "1.9.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1296,10 +1296,10 @@
   },
   {
    "name": "ipconfig",
-   "SPDXID": "SPDXRef-Package-rust-crate-ipconfig-6b48b54f865b9499",
+   "SPDXID": "SPDXRef-Package-rust-crate-ipconfig-d94914623f08f5f2",
    "versionInfo": "0.3.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1318,10 +1318,10 @@
   },
   {
    "name": "ipnet",
-   "SPDXID": "SPDXRef-Package-rust-crate-ipnet-37bd904dd9327257",
+   "SPDXID": "SPDXRef-Package-rust-crate-ipnet-aee804affecce9e7",
    "versionInfo": "2.7.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1340,10 +1340,10 @@
   },
   {
    "name": "itoa",
-   "SPDXID": "SPDXRef-Package-rust-crate-itoa-73ee60926a85e72a",
+   "SPDXID": "SPDXRef-Package-rust-crate-itoa-32d3fc862069f98a",
    "versionInfo": "1.0.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1362,10 +1362,10 @@
   },
   {
    "name": "js-sys",
-   "SPDXID": "SPDXRef-Package-rust-crate-js-sys-1ac06482b678d462",
+   "SPDXID": "SPDXRef-Package-rust-crate-js-sys-5639c4c4f3bbd838",
    "versionInfo": "0.3.61",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1409,10 +1409,10 @@
   },
   {
    "name": "lazy_static",
-   "SPDXID": "SPDXRef-Package-rust-crate-lazy-static-7fba28d6409a405f",
+   "SPDXID": "SPDXRef-Package-rust-crate-lazy-static-b9d3e1e7d4dcb35b",
    "versionInfo": "1.4.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1456,10 +1456,10 @@
   },
   {
    "name": "libc",
-   "SPDXID": "SPDXRef-Package-rust-crate-libc-a56f5b55916baeca",
-   "versionInfo": "0.2.140",
+   "SPDXID": "SPDXRef-Package-rust-crate-libc-928e358c4cf60569",
+   "versionInfo": "0.2.142",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1467,21 +1467,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:libc:libc:0.2.140:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:libc:libc:0.2.142:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/libc@0.2.140"
+     "referenceLocator": "pkg:cargo/libc@0.2.142"
     }
    ]
   },
   {
    "name": "linked-hash-map",
-   "SPDXID": "SPDXRef-Package-rust-crate-linked-hash-map-7c49cb5c6c195f9",
+   "SPDXID": "SPDXRef-Package-rust-crate-linked-hash-map-eee7b6dbb2cf210",
    "versionInfo": "0.5.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1545,10 +1545,10 @@
   },
   {
    "name": "lock_api",
-   "SPDXID": "SPDXRef-Package-rust-crate-lock-api-da8d576cfee3925f",
+   "SPDXID": "SPDXRef-Package-rust-crate-lock-api-2d5547af1e5f3579",
    "versionInfo": "0.4.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1592,10 +1592,10 @@
   },
   {
    "name": "log",
-   "SPDXID": "SPDXRef-Package-rust-crate-log-21bb881e50a27635",
+   "SPDXID": "SPDXRef-Package-rust-crate-log-8ae921c438bc56d",
    "versionInfo": "0.4.17",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1614,10 +1614,10 @@
   },
   {
    "name": "lru-cache",
-   "SPDXID": "SPDXRef-Package-rust-crate-lru-cache-829bc1782684ebb",
+   "SPDXID": "SPDXRef-Package-rust-crate-lru-cache-324f9507ec441912",
    "versionInfo": "0.1.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1661,10 +1661,10 @@
   },
   {
    "name": "match_cfg",
-   "SPDXID": "SPDXRef-Package-rust-crate-match-cfg-fca3cc856fb3d38b",
+   "SPDXID": "SPDXRef-Package-rust-crate-match-cfg-cc0b992cf23bac74",
    "versionInfo": "0.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1708,10 +1708,10 @@
   },
   {
    "name": "matches",
-   "SPDXID": "SPDXRef-Package-rust-crate-matches-8e7cbcf13ad4fbd4",
+   "SPDXID": "SPDXRef-Package-rust-crate-matches-f3d79818e98db7a5",
    "versionInfo": "0.1.10",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1730,10 +1730,10 @@
   },
   {
    "name": "memchr",
-   "SPDXID": "SPDXRef-Package-rust-crate-memchr-279c0d95700910fe",
+   "SPDXID": "SPDXRef-Package-rust-crate-memchr-e6a4c34d12473ed9",
    "versionInfo": "2.5.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1752,10 +1752,10 @@
   },
   {
    "name": "mime",
-   "SPDXID": "SPDXRef-Package-rust-crate-mime-47c861498bd81dd6",
+   "SPDXID": "SPDXRef-Package-rust-crate-mime-245c82eb122bc0de",
    "versionInfo": "0.3.17",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1774,10 +1774,10 @@
   },
   {
    "name": "mio",
-   "SPDXID": "SPDXRef-Package-rust-crate-mio-1b7aa06b20dd34bf",
+   "SPDXID": "SPDXRef-Package-rust-crate-mio-ada84cc028ad2d7",
    "versionInfo": "0.8.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1796,10 +1796,10 @@
   },
   {
    "name": "netaddr",
-   "SPDXID": "SPDXRef-Package-python-netaddr-426f6080ca685f47",
+   "SPDXID": "SPDXRef-Package-python-netaddr-85e04073e49a0b88",
    "versionInfo": "0.8.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from installed python package manifest file: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/python/requirements.txt",
+   "sourceInfo": "acquired package info from installed python package manifest file: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/python/requirements.txt",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1873,10 +1873,10 @@
   },
   {
    "name": "num_cpus",
-   "SPDXID": "SPDXRef-Package-rust-crate-num-cpus-b8c6b432b15dc60d",
+   "SPDXID": "SPDXRef-Package-rust-crate-num-cpus-b8bd108ccde7b647",
    "versionInfo": "1.15.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1920,10 +1920,10 @@
   },
   {
    "name": "once_cell",
-   "SPDXID": "SPDXRef-Package-rust-crate-once-cell-6f5f84832485c46a",
+   "SPDXID": "SPDXRef-Package-rust-crate-once-cell-c848adf1026905ec",
    "versionInfo": "1.17.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -1967,10 +1967,10 @@
   },
   {
    "name": "parking_lot",
-   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-e784c38e3feb8dac",
+   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-baba1abd4fbf344b",
    "versionInfo": "0.12.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2014,10 +2014,10 @@
   },
   {
    "name": "parking_lot_core",
-   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-core-df5a8faadc97626b",
+   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-core-2ebe870bd53697e0",
    "versionInfo": "0.9.7",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2081,10 +2081,10 @@
   },
   {
    "name": "percent-encoding",
-   "SPDXID": "SPDXRef-Package-rust-crate-percent-encoding-33b9329f6ddad54e",
+   "SPDXID": "SPDXRef-Package-rust-crate-percent-encoding-c4a2b698098fc591",
    "versionInfo": "2.2.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2128,10 +2128,10 @@
   },
   {
    "name": "pin-project-lite",
-   "SPDXID": "SPDXRef-Package-rust-crate-pin-project-lite-e66f8b4c37b66d73",
+   "SPDXID": "SPDXRef-Package-rust-crate-pin-project-lite-ccd50a7513c0e48d",
    "versionInfo": "0.2.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2195,10 +2195,10 @@
   },
   {
    "name": "pin-utils",
-   "SPDXID": "SPDXRef-Package-rust-crate-pin-utils-50a115094b014faa",
+   "SPDXID": "SPDXRef-Package-rust-crate-pin-utils-7e393755fe64e085",
    "versionInfo": "0.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2242,10 +2242,10 @@
   },
   {
    "name": "ppv-lite86",
-   "SPDXID": "SPDXRef-Package-rust-crate-ppv-lite86-1fe29800dddd634b",
+   "SPDXID": "SPDXRef-Package-rust-crate-ppv-lite86-5a81e3bf54893c5a",
    "versionInfo": "0.2.17",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2289,10 +2289,10 @@
   },
   {
    "name": "proc-macro2",
-   "SPDXID": "SPDXRef-Package-rust-crate-proc-macro2-bb987d2e31fcc53b",
-   "versionInfo": "1.0.55",
+   "SPDXID": "SPDXRef-Package-rust-crate-proc-macro2-a332baf061184fb7",
+   "versionInfo": "1.0.56",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2300,46 +2300,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc-macro2:proc-macro2:1.0.55:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc-macro2:proc-macro2:1.0.56:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc-macro2:proc_macro2:1.0.55:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc-macro2:proc_macro2:1.0.56:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc_macro2:proc-macro2:1.0.55:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc_macro2:proc-macro2:1.0.56:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc_macro2:proc_macro2:1.0.55:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc_macro2:proc_macro2:1.0.56:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc:proc-macro2:1.0.55:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc:proc-macro2:1.0.56:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:proc:proc_macro2:1.0.55:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:proc:proc_macro2:1.0.56:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/proc-macro2@1.0.55"
+     "referenceLocator": "pkg:cargo/proc-macro2@1.0.56"
     }
    ]
   },
   {
    "name": "quick-error",
-   "SPDXID": "SPDXRef-Package-rust-crate-quick-error-159ee5246bec2cab",
+   "SPDXID": "SPDXRef-Package-rust-crate-quick-error-5e76172ae4fb0210",
    "versionInfo": "1.2.3",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2383,10 +2383,10 @@
   },
   {
    "name": "quote",
-   "SPDXID": "SPDXRef-Package-rust-crate-quote-70de5d0df0169429",
+   "SPDXID": "SPDXRef-Package-rust-crate-quote-87c298c6be5bef08",
    "versionInfo": "1.0.26",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2405,10 +2405,10 @@
   },
   {
    "name": "rand",
-   "SPDXID": "SPDXRef-Package-rust-crate-rand-d7cb57368b755717",
+   "SPDXID": "SPDXRef-Package-rust-crate-rand-11f85a2bab4e3f9f",
    "versionInfo": "0.8.5",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2427,10 +2427,10 @@
   },
   {
    "name": "rand_chacha",
-   "SPDXID": "SPDXRef-Package-rust-crate-rand-chacha-3d6c33c0fc2eb62b",
+   "SPDXID": "SPDXRef-Package-rust-crate-rand-chacha-253cb95592136815",
    "versionInfo": "0.3.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2474,10 +2474,10 @@
   },
   {
    "name": "rand_core",
-   "SPDXID": "SPDXRef-Package-rust-crate-rand-core-9ee4f6ef9fd5b764",
+   "SPDXID": "SPDXRef-Package-rust-crate-rand-core-fb2dcaf75cc9653c",
    "versionInfo": "0.6.4",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2521,10 +2521,10 @@
   },
   {
    "name": "redox_syscall",
-   "SPDXID": "SPDXRef-Package-rust-crate-redox-syscall-3f4b493ea4c33802",
+   "SPDXID": "SPDXRef-Package-rust-crate-redox-syscall-3e3f47d95bf0ae07",
    "versionInfo": "0.2.16",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2568,10 +2568,10 @@
   },
   {
    "name": "reqwest",
-   "SPDXID": "SPDXRef-Package-rust-crate-reqwest-ab7c2643825787b",
+   "SPDXID": "SPDXRef-Package-rust-crate-reqwest-2114b2476b585c94",
    "versionInfo": "0.11.16",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2590,10 +2590,10 @@
   },
   {
    "name": "resolv-conf",
-   "SPDXID": "SPDXRef-Package-rust-crate-resolv-conf-8aeb7a163e1376b8",
+   "SPDXID": "SPDXRef-Package-rust-crate-resolv-conf-6a8a06734cae9f21",
    "versionInfo": "0.7.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2637,10 +2637,10 @@
   },
   {
    "name": "ring",
-   "SPDXID": "SPDXRef-Package-rust-crate-ring-2785021e113275ec",
+   "SPDXID": "SPDXRef-Package-rust-crate-ring-b525f7b7aa62290d",
    "versionInfo": "0.16.20",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2659,10 +2659,10 @@
   },
   {
    "name": "rustls",
-   "SPDXID": "SPDXRef-Package-rust-crate-rustls-823a9afcf258232b",
+   "SPDXID": "SPDXRef-Package-rust-crate-rustls-bc794a7e5fb34882",
    "versionInfo": "0.20.8",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2681,10 +2681,10 @@
   },
   {
    "name": "rustls-pemfile",
-   "SPDXID": "SPDXRef-Package-rust-crate-rustls-pemfile-b75e642562678cd2",
+   "SPDXID": "SPDXRef-Package-rust-crate-rustls-pemfile-512d74d38d67e828",
    "versionInfo": "1.0.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2728,10 +2728,10 @@
   },
   {
    "name": "rustportmap",
-   "SPDXID": "SPDXRef-Package-rust-crate-rustportmap-76e9d12a57e86eba",
+   "SPDXID": "SPDXRef-Package-rust-crate-rustportmap-1e1f7d8e1939216b",
    "versionInfo": "0.0.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2750,10 +2750,10 @@
   },
   {
    "name": "ryu",
-   "SPDXID": "SPDXRef-Package-rust-crate-ryu-3f7209aefed94f79",
+   "SPDXID": "SPDXRef-Package-rust-crate-ryu-63f65286af41a0d1",
    "versionInfo": "1.0.13",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2772,10 +2772,10 @@
   },
   {
    "name": "scopeguard",
-   "SPDXID": "SPDXRef-Package-rust-crate-scopeguard-64c558c55f4151da",
+   "SPDXID": "SPDXRef-Package-rust-crate-scopeguard-556628bef3a40444",
    "versionInfo": "1.1.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2794,10 +2794,10 @@
   },
   {
    "name": "sct",
-   "SPDXID": "SPDXRef-Package-rust-crate-sct-dfc935c6206ad0e4",
+   "SPDXID": "SPDXRef-Package-rust-crate-sct-a43ba69ac702ef47",
    "versionInfo": "0.7.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2816,10 +2816,10 @@
   },
   {
    "name": "serde",
-   "SPDXID": "SPDXRef-Package-rust-crate-serde-ca5ab9316d24e6b0",
-   "versionInfo": "1.0.159",
+   "SPDXID": "SPDXRef-Package-rust-crate-serde-717dccfa2daf0fb3",
+   "versionInfo": "1.0.160",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2827,21 +2827,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde:1.0.159:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde:1.0.160:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/serde@1.0.159"
+     "referenceLocator": "pkg:cargo/serde@1.0.160"
     }
    ]
   },
   {
    "name": "serde_derive",
-   "SPDXID": "SPDXRef-Package-rust-crate-serde-derive-3ee8edac64c74bbf",
-   "versionInfo": "1.0.159",
+   "SPDXID": "SPDXRef-Package-rust-crate-serde-derive-a4e546f2b2fa3a74",
+   "versionInfo": "1.0.160",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2849,46 +2849,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde-derive:serde-derive:1.0.159:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde-derive:serde-derive:1.0.160:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde-derive:serde_derive:1.0.159:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde-derive:serde_derive:1.0.160:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde_derive:serde-derive:1.0.159:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde_derive:serde-derive:1.0.160:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde_derive:serde_derive:1.0.159:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde_derive:serde_derive:1.0.160:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde-derive:1.0.159:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde-derive:1.0.160:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde_derive:1.0.159:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde_derive:1.0.160:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/serde_derive@1.0.159"
+     "referenceLocator": "pkg:cargo/serde_derive@1.0.160"
     }
    ]
   },
   {
    "name": "serde_json",
-   "SPDXID": "SPDXRef-Package-rust-crate-serde-json-de78443a084113cb",
-   "versionInfo": "1.0.95",
+   "SPDXID": "SPDXRef-Package-rust-crate-serde-json-ad17641ff0161d6d",
+   "versionInfo": "1.0.96",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2896,46 +2896,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde-json:serde-json:1.0.95:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde-json:serde-json:1.0.96:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde-json:serde_json:1.0.95:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde-json:serde_json:1.0.96:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde_json:serde-json:1.0.95:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde_json:serde-json:1.0.96:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde_json:serde_json:1.0.95:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde_json:serde_json:1.0.96:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde-json:1.0.95:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde-json:1.0.96:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:serde:serde_json:1.0.95:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:serde:serde_json:1.0.96:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/serde_json@1.0.95"
+     "referenceLocator": "pkg:cargo/serde_json@1.0.96"
     }
    ]
   },
   {
    "name": "serde_urlencoded",
-   "SPDXID": "SPDXRef-Package-rust-crate-serde-urlencoded-5d9c3d978e7c6f8c",
+   "SPDXID": "SPDXRef-Package-rust-crate-serde-urlencoded-87511aae58cc2225",
    "versionInfo": "0.7.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -2979,10 +2979,10 @@
   },
   {
    "name": "signal-hook-registry",
-   "SPDXID": "SPDXRef-Package-rust-crate-signal-hook-registry-9659e79659756409",
+   "SPDXID": "SPDXRef-Package-rust-crate-signal-hook-registry-7476a53c07279f50",
    "versionInfo": "1.4.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3046,10 +3046,10 @@
   },
   {
    "name": "slab",
-   "SPDXID": "SPDXRef-Package-rust-crate-slab-dde4de7e94a8ced9",
+   "SPDXID": "SPDXRef-Package-rust-crate-slab-597448be53cda62a",
    "versionInfo": "0.4.8",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3068,10 +3068,10 @@
   },
   {
    "name": "smallvec",
-   "SPDXID": "SPDXRef-Package-rust-crate-smallvec-f199df4333a69219",
+   "SPDXID": "SPDXRef-Package-rust-crate-smallvec-a39286d9b58ffdd1",
    "versionInfo": "1.10.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3090,10 +3090,10 @@
   },
   {
    "name": "socket2",
-   "SPDXID": "SPDXRef-Package-rust-crate-socket2-9d4b4ca94e998619",
+   "SPDXID": "SPDXRef-Package-rust-crate-socket2-bb800776e5565c50",
    "versionInfo": "0.4.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3112,10 +3112,10 @@
   },
   {
    "name": "spin",
-   "SPDXID": "SPDXRef-Package-rust-crate-spin-d75dfa20e492b5de",
+   "SPDXID": "SPDXRef-Package-rust-crate-spin-339bae1dcaa06f1e",
    "versionInfo": "0.5.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3134,10 +3134,10 @@
   },
   {
    "name": "syn",
-   "SPDXID": "SPDXRef-Package-rust-crate-syn-7e4fef4744996e9a",
+   "SPDXID": "SPDXRef-Package-rust-crate-syn-c323f9413d8afe8d",
    "versionInfo": "1.0.109",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3156,10 +3156,10 @@
   },
   {
    "name": "syn",
-   "SPDXID": "SPDXRef-Package-rust-crate-syn-e8814d04e0d9d0d9",
-   "versionInfo": "2.0.13",
+   "SPDXID": "SPDXRef-Package-rust-crate-syn-64fffa231a5e31cf",
+   "versionInfo": "2.0.15",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3167,21 +3167,21 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:syn:syn:2.0.13:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:syn:syn:2.0.15:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/syn@2.0.13"
+     "referenceLocator": "pkg:cargo/syn@2.0.15"
     }
    ]
   },
   {
    "name": "thiserror",
-   "SPDXID": "SPDXRef-Package-rust-crate-thiserror-33103c33ce790fe5",
+   "SPDXID": "SPDXRef-Package-rust-crate-thiserror-6e37bec173a1a1",
    "versionInfo": "1.0.40",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3200,10 +3200,10 @@
   },
   {
    "name": "thiserror-impl",
-   "SPDXID": "SPDXRef-Package-rust-crate-thiserror-impl-b7e48e86f5a6cc59",
+   "SPDXID": "SPDXRef-Package-rust-crate-thiserror-impl-fbbdce79ee26929f",
    "versionInfo": "1.0.40",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3247,10 +3247,10 @@
   },
   {
    "name": "tinyvec",
-   "SPDXID": "SPDXRef-Package-rust-crate-tinyvec-b56cdb17d5b1d816",
+   "SPDXID": "SPDXRef-Package-rust-crate-tinyvec-f080519a9c42a4b4",
    "versionInfo": "1.6.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3269,10 +3269,10 @@
   },
   {
    "name": "tinyvec_macros",
-   "SPDXID": "SPDXRef-Package-rust-crate-tinyvec-macros-c96e5318f96f1469",
+   "SPDXID": "SPDXRef-Package-rust-crate-tinyvec-macros-76f7a20601a6a721",
    "versionInfo": "0.1.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3316,10 +3316,10 @@
   },
   {
    "name": "tokio",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-df84f96a8120f861",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-6f2dd1df5ec8441a",
    "versionInfo": "1.27.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3338,10 +3338,10 @@
   },
   {
    "name": "tokio-macros",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-macros-c0e4b332c82c100",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-macros-cf4a25d1353b3bb0",
    "versionInfo": "2.0.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3385,10 +3385,10 @@
   },
   {
    "name": "tokio-rustls",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-rustls-3073e800ebf836e9",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-rustls-8025814924a90c25",
    "versionInfo": "0.23.4",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3432,10 +3432,10 @@
   },
   {
    "name": "tokio-stream",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-stream-ce5c29b6467165db",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-stream-64e9fa410ff33bad",
    "versionInfo": "0.1.12",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3479,10 +3479,10 @@
   },
   {
    "name": "tokio-util",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-util-fb06751dfc8eb089",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-util-f8db6010452618eb",
    "versionInfo": "0.7.7",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3526,10 +3526,10 @@
   },
   {
    "name": "tower-service",
-   "SPDXID": "SPDXRef-Package-rust-crate-tower-service-bf05b3ba700e388b",
+   "SPDXID": "SPDXRef-Package-rust-crate-tower-service-f718007a91190123",
    "versionInfo": "0.3.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3573,10 +3573,10 @@
   },
   {
    "name": "tracing",
-   "SPDXID": "SPDXRef-Package-rust-crate-tracing-f79cb4ed141cda3a",
+   "SPDXID": "SPDXRef-Package-rust-crate-tracing-c1c3a833e4117d8b",
    "versionInfo": "0.1.37",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3595,10 +3595,10 @@
   },
   {
    "name": "tracing-attributes",
-   "SPDXID": "SPDXRef-Package-rust-crate-tracing-attributes-76fbd04479561225",
-   "versionInfo": "0.1.23",
+   "SPDXID": "SPDXRef-Package-rust-crate-tracing-attributes-7ef854ad960f6ca3",
+   "versionInfo": "0.1.24",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3606,46 +3606,46 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tracing-attributes:tracing-attributes:0.1.23:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tracing-attributes:tracing-attributes:0.1.24:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tracing-attributes:tracing_attributes:0.1.23:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tracing-attributes:tracing_attributes:0.1.24:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tracing_attributes:tracing-attributes:0.1.23:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tracing_attributes:tracing-attributes:0.1.24:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tracing_attributes:tracing_attributes:0.1.23:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tracing_attributes:tracing_attributes:0.1.24:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tracing:tracing-attributes:0.1.23:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tracing:tracing-attributes:0.1.24:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tracing:tracing_attributes:0.1.23:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tracing:tracing_attributes:0.1.24:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/tracing-attributes@0.1.23"
+     "referenceLocator": "pkg:cargo/tracing-attributes@0.1.24"
     }
    ]
   },
   {
    "name": "tracing-core",
-   "SPDXID": "SPDXRef-Package-rust-crate-tracing-core-10f8d3a0a618e855",
+   "SPDXID": "SPDXRef-Package-rust-crate-tracing-core-c695221d3bf0a3bd",
    "versionInfo": "0.1.30",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3689,10 +3689,10 @@
   },
   {
    "name": "trust-dns-proto",
-   "SPDXID": "SPDXRef-Package-rust-crate-trust-dns-proto-938bc7dedfe5de55",
+   "SPDXID": "SPDXRef-Package-rust-crate-trust-dns-proto-b27d13af1be3c862",
    "versionInfo": "0.22.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3756,10 +3756,10 @@
   },
   {
    "name": "trust-dns-resolver",
-   "SPDXID": "SPDXRef-Package-rust-crate-trust-dns-resolver-3e08b18a11e7e956",
+   "SPDXID": "SPDXRef-Package-rust-crate-trust-dns-resolver-2c688036769a2d6e",
    "versionInfo": "0.22.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3823,10 +3823,10 @@
   },
   {
    "name": "try-lock",
-   "SPDXID": "SPDXRef-Package-rust-crate-try-lock-348c1b83494a1eeb",
+   "SPDXID": "SPDXRef-Package-rust-crate-try-lock-c7998cb01953de6d",
    "versionInfo": "0.2.4",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3870,10 +3870,10 @@
   },
   {
    "name": "unicode-bidi",
-   "SPDXID": "SPDXRef-Package-rust-crate-unicode-bidi-e82445d65eadcf4d",
+   "SPDXID": "SPDXRef-Package-rust-crate-unicode-bidi-e68042ef6ba19613",
    "versionInfo": "0.3.13",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3917,10 +3917,10 @@
   },
   {
    "name": "unicode-ident",
-   "SPDXID": "SPDXRef-Package-rust-crate-unicode-ident-87e6729db843f259",
+   "SPDXID": "SPDXRef-Package-rust-crate-unicode-ident-3f46824b8a7e858b",
    "versionInfo": "1.0.8",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -3964,10 +3964,10 @@
   },
   {
    "name": "unicode-normalization",
-   "SPDXID": "SPDXRef-Package-rust-crate-unicode-normalization-20c91e1126bd5e2",
+   "SPDXID": "SPDXRef-Package-rust-crate-unicode-normalization-c2e185aae2b6675b",
    "versionInfo": "0.1.22",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4011,10 +4011,10 @@
   },
   {
    "name": "untrusted",
-   "SPDXID": "SPDXRef-Package-rust-crate-untrusted-5a82d45406901155",
+   "SPDXID": "SPDXRef-Package-rust-crate-untrusted-db1392999e64d307",
    "versionInfo": "0.7.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4033,10 +4033,10 @@
   },
   {
    "name": "url",
-   "SPDXID": "SPDXRef-Package-rust-crate-url-30171cfc4a2f650f",
+   "SPDXID": "SPDXRef-Package-rust-crate-url-e4ac9d524e85c5b6",
    "versionInfo": "2.3.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4055,10 +4055,10 @@
   },
   {
    "name": "want",
-   "SPDXID": "SPDXRef-Package-rust-crate-want-46aba2eda752b0d4",
+   "SPDXID": "SPDXRef-Package-rust-crate-want-86c175c4c773d33d",
    "versionInfo": "0.3.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4077,10 +4077,10 @@
   },
   {
    "name": "wasi",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasi-5bbfb883b65bfc28",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasi-166949a8b779b759",
    "versionInfo": "0.11.0+wasi-snapshot-preview1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4099,10 +4099,10 @@
   },
   {
    "name": "wasm-bindgen",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-fa9eb3d617755ae3",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-eb8dc4e4bc7d63df",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4146,10 +4146,10 @@
   },
   {
    "name": "wasm-bindgen-backend",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-backend-c1b39ce18a3b7439",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-backend-2fc89081d856f282",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4213,10 +4213,10 @@
   },
   {
    "name": "wasm-bindgen-futures",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-futures-e333c29e43791e2b",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-futures-adb6c77742113fe8",
    "versionInfo": "0.4.34",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4280,10 +4280,10 @@
   },
   {
    "name": "wasm-bindgen-macro",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-d82c0ba0943718ec",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-714a73d1bc8e382b",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4347,10 +4347,10 @@
   },
   {
    "name": "wasm-bindgen-macro-support",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-support-c69932e7e7e2ac7a",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-support-3c899534df8ad7b5",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4434,10 +4434,10 @@
   },
   {
    "name": "wasm-bindgen-shared",
-   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-shared-a30f5cc8210c59ea",
+   "SPDXID": "SPDXRef-Package-rust-crate-wasm-bindgen-shared-e6a14174e572c8e1",
    "versionInfo": "0.2.84",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4501,10 +4501,10 @@
   },
   {
    "name": "web-sys",
-   "SPDXID": "SPDXRef-Package-rust-crate-web-sys-519a267c06c65ced",
+   "SPDXID": "SPDXRef-Package-rust-crate-web-sys-e9ed6964ae94c061",
    "versionInfo": "0.3.61",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4548,10 +4548,10 @@
   },
   {
    "name": "webpki",
-   "SPDXID": "SPDXRef-Package-rust-crate-webpki-a2b215a97238b778",
+   "SPDXID": "SPDXRef-Package-rust-crate-webpki-559baa4b6158d580",
    "versionInfo": "0.22.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4570,10 +4570,10 @@
   },
   {
    "name": "webpki-roots",
-   "SPDXID": "SPDXRef-Package-rust-crate-webpki-roots-b7af12ca2a8ba818",
+   "SPDXID": "SPDXRef-Package-rust-crate-webpki-roots-14b5cf4a2795e480",
    "versionInfo": "0.22.6",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4617,10 +4617,10 @@
   },
   {
    "name": "widestring",
-   "SPDXID": "SPDXRef-Package-rust-crate-widestring-73bb536eeb6260f9",
+   "SPDXID": "SPDXRef-Package-rust-crate-widestring-74b601d834e3fa90",
    "versionInfo": "0.5.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4639,10 +4639,10 @@
   },
   {
    "name": "winapi",
-   "SPDXID": "SPDXRef-Package-rust-crate-winapi-7d97254a759ed10e",
+   "SPDXID": "SPDXRef-Package-rust-crate-winapi-2dd00fc1d5f2f889",
    "versionInfo": "0.3.9",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4661,10 +4661,10 @@
   },
   {
    "name": "winapi-i686-pc-windows-gnu",
-   "SPDXID": "SPDXRef-Package-rust-crate-winapi-i686-pc-windows-gnu-f260f47560908290",
+   "SPDXID": "SPDXRef-Package-rust-crate-winapi-i686-pc-windows-gnu-b8c29a8f9ac86f8e",
    "versionInfo": "0.4.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -4768,10 +4768,10 @@
   },
   {
    "name": "winapi-x86_64-pc-windows-gnu",
-   "SPDXID": "SPDXRef-Package-rust-crate-winapi-x86-64-pc-windows-gnu-c9c9f7979044159f",
+   "SPDXID": "SPDXRef-Package-rust-crate-winapi-x86-64-pc-windows-gnu-d3c8b711868be604",
    "versionInfo": "0.4.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5010,10 +5010,10 @@
   },
   {
    "name": "windows-sys",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-sys-4ce8b93560f68034",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-sys-82057eada9872402",
    "versionInfo": "0.45.0",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5057,10 +5057,10 @@
   },
   {
    "name": "windows-targets",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-targets-35bfce5988ff3f60",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-targets-d5e24060b38f2184",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5104,10 +5104,10 @@
   },
   {
    "name": "windows_aarch64_gnullvm",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-28511468f8c30ccc",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-2d91178f9e573d7a",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5171,10 +5171,10 @@
   },
   {
    "name": "windows_aarch64_msvc",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-msvc-85094e9aacfd1c03",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-msvc-12ddc68c0559b350",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5238,10 +5238,10 @@
   },
   {
    "name": "windows_i686_gnu",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-gnu-7805cb6a250c6426",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-gnu-ecf9c55340c3c94",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5305,10 +5305,10 @@
   },
   {
    "name": "windows_i686_msvc",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-msvc-e5843406db1557e8",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-msvc-5ad6d340b8c28272",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5372,10 +5372,10 @@
   },
   {
    "name": "windows_x86_64_gnu",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnu-eed4b0592310baa0",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnu-a2baf454fe90a25a",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5459,10 +5459,10 @@
   },
   {
    "name": "windows_x86_64_gnullvm",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-9491c3b1b42d3681",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-1723b751ab4039b0",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5546,10 +5546,10 @@
   },
   {
    "name": "windows_x86_64_msvc",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-msvc-75fba80dba934d4f",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-msvc-5094d2818f419cfb",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5633,10 +5633,10 @@
   },
   {
    "name": "winreg",
-   "SPDXID": "SPDXRef-Package-rust-crate-winreg-d69bb166fa568cb3",
+   "SPDXID": "SPDXRef-Package-rust-crate-winreg-7348680525391058",
    "versionInfo": "0.10.1",
    "downloadLocation": "NOASSERTION",
-   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.reference/.src/@code/blackhat-tools/port-scanner/rust/Cargo.lock",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
    "licenseDeclared": "NONE",
    "copyrightText": "NOASSERTION",
@@ -5654,7 +5654,843 @@
    ]
   }
  ],
+ "files": [
+  {
+   "fileName": "/Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/python/requirements.txt",
+   "SPDXID": "SPDXRef-b07c12c4782bb430",
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "0000000000000000000000000000000000000000"
+    }
+   ],
+   "licenseConcluded": "NOASSERTION",
+   "copyrightText": ""
+  },
+  {
+   "fileName": "/Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "SPDXID": "SPDXRef-4909563a6b8789cf",
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "0000000000000000000000000000000000000000"
+    }
+   ],
+   "licenseConcluded": "NOASSERTION",
+   "copyrightText": ""
+  }
+ ],
  "relationships": [
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-futures-executor-108ac596626c7aa3",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-rand-11f85a2bab4e3f9f",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-futures-core-121762a3fad7ff0e",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-aarch64-msvc-12ddc68c0559b350",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-webpki-roots-14b5cf4a2795e480",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-wasi-166949a8b779b759",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-1723b751ab4039b0",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-indexmap-1b757edb3773cc47",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-rustportmap-1e1f7d8e1939216b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-idna-1f831346d6eb8426",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-reqwest-2114b2476b585c94",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-mime-245c82eb122bc0de",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-hyper-2482962eb92cee75",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-rand-chacha-253cb95592136815",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-trust-dns-resolver-2c688036769a2d6e",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-lock-api-2d5547af1e5f3579",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-2d91178f9e573d7a",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-winapi-2dd00fc1d5f2f889",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-parking-lot-core-2ebe870bd53697e0",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-wasm-bindgen-backend-2fc89081d856f282",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-lru-cache-324f9507ec441912",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-itoa-32d3fc862069f98a",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-spin-339bae1dcaa06f1e",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-support-3c899534df8ad7b5",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-redox-syscall-3e3f47d95bf0ae07",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-unicode-ident-3f46824b8a7e858b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-anyhow-483258eb862ccb5b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-cc-4b0a1e9c5e38c5a6",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-autocfg-4bc355a653a8eb2c",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-data-encoding-4d662c914ac1a0cf",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-x86-64-msvc-5094d2818f419cfb",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-rustls-pemfile-512d74d38d67e828",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-futures-util-52579beffd6e3605",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-bitflags-54dc26c84085a134",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-scopeguard-556628bef3a40444",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-webpki-559baa4b6158d580",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-js-sys-5639c4c4f3bbd838",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-futures-io-57a03ed574389c0d",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-slab-597448be53cda62a",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-ppv-lite86-5a81e3bf54893c5a",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-i686-msvc-5ad6d340b8c28272",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-quick-error-5e76172ae4fb0210",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-idna-5efa34e4d287099e",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-httpdate-5fa8815966a4c643",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-ryu-63f65286af41a0d1",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-stream-64e9fa410ff33bad",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-syn-64fffa231a5e31cf",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-resolv-conf-6a8a06734cae9f21",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-thiserror-6e37bec173a1a1",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-http-6eb2b504eec9a584",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-6f2dd1df5ec8441a",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-714a73d1bc8e382b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-serde-717dccfa2daf0fb3",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-winreg-7348680525391058",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-signal-hook-registry-7476a53c07279f50",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-widestring-74b601d834e3fa90",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tinyvec-macros-76f7a20601a6a721",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-pin-utils-7e393755fe64e085",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tracing-attributes-7ef854ad960f6ca3",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-rustls-8025814924a90c25",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-async-trait-813ebfd253ca7840",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-sys-82057eada9872402",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-bumpalo-8334e3b8fce63da0",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-heck-834d0358703afe41",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-python-netaddr-85e04073e49a0b88",
+   "relatedSpdxElement": "SPDXRef-b07c12c4782bb430",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-want-86c175c4c773d33d",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-serde-urlencoded-87511aae58cc2225",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-quote-87c298c6be5bef08",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-log-8ae921c438bc56d",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-httparse-8e25027c3fb579",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-enum-as-inner-913ce12a34e65a23",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-base64-914945d0d4cc640f",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-libc-928e358c4cf60569",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-hostname-94981164a58590fb",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-futures-channel-9a21f7abbdf242d",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-getrandom-a1d2a0e0311eecfc",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-x86-64-gnu-a2baf454fe90a25a",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-proc-macro2-a332baf061184fb7",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-smallvec-a39286d9b58ffdd1",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-sct-a43ba69ac702ef47",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-serde-derive-a4e546f2b2fa3a74",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-futures-task-a77e0a380ecc345b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-futures-macro-aa70d18ebbf4b69b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-serde-json-ad17641ff0161d6d",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-mio-ada84cc028ad2d7",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-wasm-bindgen-futures-adb6c77742113fe8",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-fnv-ae7fd83d847becb",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-ipnet-aee804affecce9e7",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-trust-dns-proto-b27d13af1be3c862",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-ring-b525f7b7aa62290d",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-num-cpus-b8bd108ccde7b647",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-winapi-i686-pc-windows-gnu-b8c29a8f9ac86f8e",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-lazy-static-b9d3e1e7d4dcb35b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-parking-lot-baba1abd4fbf344b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-socket2-bb800776e5565c50",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-cfg-if-bc2193eba7870a0c",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-rustls-bc794a7e5fb34882",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tracing-c1c3a833e4117d8b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-unicode-normalization-c2e185aae2b6675b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-syn-c323f9413d8afe8d",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-percent-encoding-c4a2b698098fc591",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tracing-core-c695221d3bf0a3bd",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-try-lock-c7998cb01953de6d",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-once-cell-c848adf1026905ec",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-match-cfg-cc0b992cf23bac74",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-pin-project-lite-ccd50a7513c0e48d",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-macros-cf4a25d1353b3bb0",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-hyper-rustls-d173a473d983f766",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-winapi-x86-64-pc-windows-gnu-d3c8b711868be604",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-targets-d5e24060b38f2184",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-hashbrown-d8cafb9b838e45d8",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-ipconfig-d94914623f08f5f2",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-bytes-db0ce8c4df9895a0",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-untrusted-db1392999e64d307",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-form-urlencoded-dca550574530ca74",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-http-body-e344e928e7f7a84b",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-url-e4ac9d524e85c5b6",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-unicode-bidi-e68042ef6ba19613",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-wasm-bindgen-shared-e6a14174e572c8e1",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-h2-e6a46292d0e2c6f9",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-memchr-e6a4c34d12473ed9",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-web-sys-e9ed6964ae94c061",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-wasm-bindgen-eb8dc4e4bc7d63df",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-futures-sink-ec30e6a71f08d921",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-i686-gnu-ecf9c55340c3c94",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-futures-edfdfbd363472146",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-linked-hash-map-eee7b6dbb2cf210",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tinyvec-f080519a9c42a4b4",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-matches-f3d79818e98db7a5",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-encoding-rs-f70fab1e6a5381c8",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tower-service-f718007a91190123",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-util-f8db6010452618eb",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-rand-core-fb2dcaf75cc9653c",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-thiserror-impl-fbbdce79ee26929f",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-hermit-abi-fd824b521b92e99a",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
   {
    "spdxElementId": "SPDXRef-DOCUMENT",
    "relatedSpdxElement": "SPDXRef-DOCUMENT",
