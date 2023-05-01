@@ -102,30 +102,30 @@ function checkPortStatus(port) {
   var error = null;
 
   // Socket connection established, port is open
-  socket.on("connect", function() {
+  socket.on("connect", function () {
     status = "open";
     socket.destroy();
   });
 
   // If no response, assume port is not listening
   socket.setTimeout(timeout);
-  socket.on("timeout", function() {
+  socket.on("timeout", function () {
     status = "closed";
     error = new Error(
       "Timeout (" +
-      timeout +
-      "ms) occurred waiting for " +
-      host +
-      ":" +
-      port +
-      " to be available",
+        timeout +
+        "ms) occurred waiting for " +
+        host +
+        ":" +
+        port +
+        " to be available",
     );
     socket.destroy();
   });
 
   // Assuming the port is not open if an error. May need to refine based on
   // exception
-  socket.on("error", function(exception) {
+  socket.on("error", function (exception) {
     if (exception.code !== "ECONNREFUSED") {
       error = exception;
     } else {
@@ -135,7 +135,7 @@ function checkPortStatus(port) {
   });
 
   // Return after the socket has closed
-  socket.on("close", function(exception) {
+  socket.on("close", function (exception) {
     if (exception && !connectionRefused) {
       error = error || exception;
     } else {
@@ -215,17 +215,17 @@ function findAPortWithStatus(status) {
 
   // Returns true if a port with matching status has been found or if checked
   // the entire range of ports
-  var hasFoundPort = function() {
+  var hasFoundPort = function () {
     return (
       foundPort ||
       numberOfPortsChecked ===
-      (portList ? portList.length : endPort - startPort + 1)
+        (portList ? portList.length : endPort - startPort + 1)
     );
   };
 
   // Checks the status of the port
-  var checkNextPort = function(callback) {
-    checkPortStatus(port, host, opts, function(error, statusOfPort) {
+  var checkNextPort = function (callback) {
+    checkPortStatus(port, host, opts, function (error, statusOfPort) {
       numberOfPortsChecked++;
       if (statusOfPort === status) {
         foundPort = true;
@@ -239,7 +239,7 @@ function findAPortWithStatus(status) {
 
   // Check the status of each port until one with a matching status has been
   // found or the range of ports has been exhausted
-  async.until(hasFoundPort, checkNextPort, function(error) {
+  async.until(hasFoundPort, checkNextPort, function (error) {
     if (error) {
       callback(error, port);
     } else if (foundPort) {
