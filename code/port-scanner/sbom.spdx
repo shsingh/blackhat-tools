@@ -3,20 +3,20 @@
  "dataLicense": "CC0-1.0",
  "SPDXID": "SPDXRef-DOCUMENT",
  "name": ".",
- "documentNamespace": "https://anchore.com/syft/dir/d410e927-177f-46f8-8af7-c0db711d8a3e",
+ "documentNamespace": "https://anchore.com/syft/dir/0bca8b99-ca68-4113-9c0d-c1e275ee0719",
  "creationInfo": {
   "licenseListVersion": "3.20",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.79.0"
   ],
-  "created": "2023-04-25T00:57:09Z"
+  "created": "2023-05-04T21:40:23Z"
  },
  "packages": [
   {
    "name": "anyhow",
-   "SPDXID": "SPDXRef-Package-rust-crate-anyhow-483258eb862ccb5b",
-   "versionInfo": "1.0.70",
+   "SPDXID": "SPDXRef-Package-rust-crate-anyhow-e52782d84831695e",
+   "versionInfo": "1.0.71",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
@@ -26,12 +26,12 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:anyhow:anyhow:1.0.70:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:anyhow:anyhow:1.0.71:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/anyhow@1.0.70"
+     "referenceLocator": "pkg:cargo/anyhow@1.0.71"
     }
    ]
   },
@@ -1774,7 +1774,7 @@
   },
   {
    "name": "mio",
-   "SPDXID": "SPDXRef-Package-rust-crate-mio-ada84cc028ad2d7",
+   "SPDXID": "SPDXRef-Package-rust-crate-mio-3583f0457f271450",
    "versionInfo": "0.8.6",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
@@ -2014,7 +2014,7 @@
   },
   {
    "name": "parking_lot_core",
-   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-core-2ebe870bd53697e0",
+   "SPDXID": "SPDXRef-Package-rust-crate-parking-lot-core-43c6e218419825f8",
    "versionInfo": "0.9.7",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
@@ -2568,8 +2568,8 @@
   },
   {
    "name": "reqwest",
-   "SPDXID": "SPDXRef-Package-rust-crate-reqwest-2114b2476b585c94",
-   "versionInfo": "0.11.16",
+   "SPDXID": "SPDXRef-Package-rust-crate-reqwest-40fa2b9a94ec037f",
+   "versionInfo": "0.11.17",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
@@ -2579,12 +2579,12 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:reqwest:reqwest:0.11.16:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:reqwest:reqwest:0.11.17:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/reqwest@0.11.16"
+     "referenceLocator": "pkg:cargo/reqwest@0.11.17"
     }
    ]
   },
@@ -3316,8 +3316,8 @@
   },
   {
    "name": "tokio",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-6f2dd1df5ec8441a",
-   "versionInfo": "1.27.0",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-68831faf0fe4967",
+   "versionInfo": "1.28.0",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
@@ -3327,19 +3327,19 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio:1.27.0:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio:1.28.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/tokio@1.27.0"
+     "referenceLocator": "pkg:cargo/tokio@1.28.0"
     }
    ]
   },
   {
    "name": "tokio-macros",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-macros-cf4a25d1353b3bb0",
-   "versionInfo": "2.0.0",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-macros-b3fb18c7b75c9964",
+   "versionInfo": "2.1.0",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
@@ -3349,37 +3349,37 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio-macros:tokio-macros:2.0.0:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio-macros:tokio-macros:2.1.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio-macros:tokio_macros:2.0.0:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio-macros:tokio_macros:2.1.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio_macros:tokio-macros:2.0.0:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio_macros:tokio-macros:2.1.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio_macros:tokio_macros:2.0.0:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio_macros:tokio_macros:2.1.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio-macros:2.0.0:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio-macros:2.1.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio_macros:2.0.0:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio_macros:2.1.0:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/tokio-macros@2.0.0"
+     "referenceLocator": "pkg:cargo/tokio-macros@2.1.0"
     }
    ]
   },
@@ -3432,8 +3432,8 @@
   },
   {
    "name": "tokio-stream",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-stream-64e9fa410ff33bad",
-   "versionInfo": "0.1.12",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-stream-a6e5b9e908194461",
+   "versionInfo": "0.1.14",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
@@ -3443,44 +3443,44 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio-stream:tokio-stream:0.1.12:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio-stream:tokio-stream:0.1.14:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio-stream:tokio_stream:0.1.12:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio-stream:tokio_stream:0.1.14:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio_stream:tokio-stream:0.1.12:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio_stream:tokio-stream:0.1.14:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio_stream:tokio_stream:0.1.12:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio_stream:tokio_stream:0.1.14:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio-stream:0.1.12:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio-stream:0.1.14:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio_stream:0.1.12:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio_stream:0.1.14:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/tokio-stream@0.1.12"
+     "referenceLocator": "pkg:cargo/tokio-stream@0.1.14"
     }
    ]
   },
   {
    "name": "tokio-util",
-   "SPDXID": "SPDXRef-Package-rust-crate-tokio-util-f8db6010452618eb",
-   "versionInfo": "0.7.7",
+   "SPDXID": "SPDXRef-Package-rust-crate-tokio-util-1350711ca2415808",
+   "versionInfo": "0.7.8",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
    "licenseConcluded": "NONE",
@@ -3490,37 +3490,37 @@
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio-util:tokio-util:0.7.7:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio-util:tokio-util:0.7.8:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio-util:tokio_util:0.7.7:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio-util:tokio_util:0.7.8:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio_util:tokio-util:0.7.7:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio_util:tokio-util:0.7.8:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio_util:tokio_util:0.7.7:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio_util:tokio_util:0.7.8:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio-util:0.7.7:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio-util:0.7.8:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceType": "cpe23Type",
-     "referenceLocator": "cpe:2.3:a:tokio:tokio_util:0.7.7:*:*:*:*:*:*:*"
+     "referenceLocator": "cpe:2.3:a:tokio:tokio_util:0.7.8:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:cargo/tokio-util@0.7.7"
+     "referenceLocator": "pkg:cargo/tokio-util@0.7.8"
     }
    ]
   },
@@ -5010,7 +5010,7 @@
   },
   {
    "name": "windows-sys",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-sys-82057eada9872402",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-sys-ac6efded940c115d",
    "versionInfo": "0.45.0",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
@@ -5056,8 +5056,55 @@
    ]
   },
   {
+   "name": "windows-sys",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-sys-1917ce5c54d42e54",
+   "versionInfo": "0.48.0",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-sys:windows-sys:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-sys:windows_sys:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_sys:windows-sys:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_sys:windows_sys:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows-sys:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows_sys:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/windows-sys@0.48.0"
+    }
+   ]
+  },
+  {
    "name": "windows-targets",
-   "SPDXID": "SPDXRef-Package-rust-crate-windows-targets-d5e24060b38f2184",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-targets-268984dacfc58b5",
    "versionInfo": "0.42.2",
    "downloadLocation": "NOASSERTION",
    "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
@@ -5099,6 +5146,53 @@
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
      "referenceLocator": "pkg:cargo/windows-targets@0.42.2"
+    }
+   ]
+  },
+  {
+   "name": "windows-targets",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-targets-ced532b97f07a7fb",
+   "versionInfo": "0.48.0",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-targets:windows-targets:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-targets:windows_targets:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_targets:windows-targets:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_targets:windows_targets:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows-targets:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows_targets:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/windows-targets@0.48.0"
     }
    ]
   },
@@ -5170,6 +5264,73 @@
    ]
   },
   {
+   "name": "windows_aarch64_gnullvm",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-3c3ef7f90fa3d7a2",
+   "versionInfo": "0.48.0",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-aarch64-gnullvm:windows-aarch64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-aarch64-gnullvm:windows_aarch64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_aarch64_gnullvm:windows-aarch64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_aarch64_gnullvm:windows_aarch64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-aarch64:windows-aarch64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-aarch64:windows_aarch64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_aarch64:windows-aarch64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_aarch64:windows_aarch64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows-aarch64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows_aarch64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/windows_aarch64_gnullvm@0.48.0"
+    }
+   ]
+  },
+  {
    "name": "windows_aarch64_msvc",
    "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-msvc-12ddc68c0559b350",
    "versionInfo": "0.42.2",
@@ -5233,6 +5394,73 @@
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
      "referenceLocator": "pkg:cargo/windows_aarch64_msvc@0.42.2"
+    }
+   ]
+  },
+  {
+   "name": "windows_aarch64_msvc",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-aarch64-msvc-50b1f902b0e72ec2",
+   "versionInfo": "0.48.0",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-aarch64-msvc:windows-aarch64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-aarch64-msvc:windows_aarch64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_aarch64_msvc:windows-aarch64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_aarch64_msvc:windows_aarch64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-aarch64:windows-aarch64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-aarch64:windows_aarch64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_aarch64:windows-aarch64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_aarch64:windows_aarch64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows-aarch64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows_aarch64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/windows_aarch64_msvc@0.48.0"
     }
    ]
   },
@@ -5304,6 +5532,73 @@
    ]
   },
   {
+   "name": "windows_i686_gnu",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-gnu-e58a1487e5141252",
+   "versionInfo": "0.48.0",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-i686-gnu:windows-i686-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-i686-gnu:windows_i686_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_i686_gnu:windows-i686-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_i686_gnu:windows_i686_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-i686:windows-i686-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-i686:windows_i686_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_i686:windows-i686-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_i686:windows_i686_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows-i686-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows_i686_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/windows_i686_gnu@0.48.0"
+    }
+   ]
+  },
+  {
    "name": "windows_i686_msvc",
    "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-msvc-5ad6d340b8c28272",
    "versionInfo": "0.42.2",
@@ -5367,6 +5662,73 @@
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
      "referenceLocator": "pkg:cargo/windows_i686_msvc@0.42.2"
+    }
+   ]
+  },
+  {
+   "name": "windows_i686_msvc",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-i686-msvc-80a34d0702f3ef19",
+   "versionInfo": "0.48.0",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-i686-msvc:windows-i686-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-i686-msvc:windows_i686_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_i686_msvc:windows-i686-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_i686_msvc:windows_i686_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-i686:windows-i686-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-i686:windows_i686_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_i686:windows-i686-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_i686:windows_i686_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows-i686-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows_i686_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/windows_i686_msvc@0.48.0"
     }
    ]
   },
@@ -5458,6 +5820,93 @@
    ]
   },
   {
+   "name": "windows_x86_64_gnu",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnu-e45a06d04728aade",
+   "versionInfo": "0.48.0",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64-gnu:windows-x86-64-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64-gnu:windows_x86_64_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64_gnu:windows-x86-64-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64_gnu:windows_x86_64_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64:windows-x86-64-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64:windows_x86_64_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64:windows-x86-64-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64:windows_x86_64_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86:windows-x86-64-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86:windows_x86_64_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86:windows-x86-64-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86:windows_x86_64_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows-x86-64-gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows_x86_64_gnu:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/windows_x86_64_gnu@0.48.0"
+    }
+   ]
+  },
+  {
    "name": "windows_x86_64_gnullvm",
    "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-1723b751ab4039b0",
    "versionInfo": "0.42.2",
@@ -5541,6 +5990,93 @@
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
      "referenceLocator": "pkg:cargo/windows_x86_64_gnullvm@0.42.2"
+    }
+   ]
+  },
+  {
+   "name": "windows_x86_64_gnullvm",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-c4ebcb4598d2275c",
+   "versionInfo": "0.48.0",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64-gnullvm:windows-x86-64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64-gnullvm:windows_x86_64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64_gnullvm:windows-x86-64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64_gnullvm:windows_x86_64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64:windows-x86-64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64:windows_x86_64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64:windows-x86-64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64:windows_x86_64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86:windows-x86-64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86:windows_x86_64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86:windows-x86-64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86:windows_x86_64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows-x86-64-gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows_x86_64_gnullvm:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/windows_x86_64_gnullvm@0.48.0"
     }
    ]
   },
@@ -5632,6 +6168,93 @@
    ]
   },
   {
+   "name": "windows_x86_64_msvc",
+   "SPDXID": "SPDXRef-Package-rust-crate-windows-x86-64-msvc-37e79fd9fe30fb44",
+   "versionInfo": "0.48.0",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from rust cargo manifest: /Users/shsingh/.src/@code/blackhat-tools/code/port-scanner/rust/Cargo.lock",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64-msvc:windows-x86-64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64-msvc:windows_x86_64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64_msvc:windows-x86-64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64_msvc:windows_x86_64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64:windows-x86-64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86-64:windows_x86_64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64:windows-x86-64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86_64:windows_x86_64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86:windows-x86-64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows-x86:windows_x86_64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86:windows-x86-64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows_x86:windows_x86_64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows-x86-64-msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:windows:windows_x86_64_msvc:0.48.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:cargo/windows_x86_64_msvc@0.48.0"
+    }
+   ]
+  },
+  {
    "name": "winreg",
    "SPDXID": "SPDXRef-Package-rust-crate-winreg-7348680525391058",
    "versionInfo": "0.10.1",
@@ -5706,6 +6329,12 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-util-1350711ca2415808",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
    "spdxElementId": "SPDXRef-Package-rust-crate-webpki-roots-14b5cf4a2795e480",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
@@ -5719,6 +6348,12 @@
   },
   {
    "spdxElementId": "SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-1723b751ab4039b0",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-sys-1917ce5c54d42e54",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -5742,12 +6377,6 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-reqwest-2114b2476b585c94",
-   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
-   "relationshipType": "OTHER",
-   "comment": "evident-by: indicates the package's existence is evident by the given file"
-  },
-  {
    "spdxElementId": "SPDXRef-Package-rust-crate-mime-245c82eb122bc0de",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
@@ -5761,6 +6390,12 @@
   },
   {
    "spdxElementId": "SPDXRef-Package-rust-crate-rand-chacha-253cb95592136815",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-targets-268984dacfc58b5",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -5790,12 +6425,6 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-parking-lot-core-2ebe870bd53697e0",
-   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
-   "relationshipType": "OTHER",
-   "comment": "evident-by: indicates the package's existence is evident by the given file"
-  },
-  {
    "spdxElementId": "SPDXRef-Package-rust-crate-wasm-bindgen-backend-2fc89081d856f282",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
@@ -5820,6 +6449,24 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
+   "spdxElementId": "SPDXRef-Package-rust-crate-mio-3583f0457f271450",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-x86-64-msvc-37e79fd9fe30fb44",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-3c3ef7f90fa3d7a2",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
    "spdxElementId": "SPDXRef-Package-rust-crate-wasm-bindgen-macro-support-3c899534df8ad7b5",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
@@ -5838,7 +6485,13 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-anyhow-483258eb862ccb5b",
+   "spdxElementId": "SPDXRef-Package-rust-crate-reqwest-40fa2b9a94ec037f",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-parking-lot-core-43c6e218419825f8",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -5863,6 +6516,12 @@
   },
   {
    "spdxElementId": "SPDXRef-Package-rust-crate-windows-x86-64-msvc-5094d2818f419cfb",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-aarch64-msvc-50b1f902b0e72ec2",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -5952,13 +6611,13 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-stream-64e9fa410ff33bad",
+   "spdxElementId": "SPDXRef-Package-rust-crate-syn-64fffa231a5e31cf",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-syn-64fffa231a5e31cf",
+   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-68831faf0fe4967",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -5977,12 +6636,6 @@
   },
   {
    "spdxElementId": "SPDXRef-Package-rust-crate-http-6eb2b504eec9a584",
-   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
-   "relationshipType": "OTHER",
-   "comment": "evident-by: indicates the package's existence is evident by the given file"
-  },
-  {
-   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-6f2dd1df5ec8441a",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -6042,13 +6695,13 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-async-trait-813ebfd253ca7840",
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-i686-msvc-80a34d0702f3ef19",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-windows-sys-82057eada9872402",
+   "spdxElementId": "SPDXRef-Package-rust-crate-async-trait-813ebfd253ca7840",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -6168,6 +6821,12 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-stream-a6e5b9e908194461",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
    "spdxElementId": "SPDXRef-Package-rust-crate-futures-task-a77e0a380ecc345b",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
@@ -6180,13 +6839,13 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-serde-json-ad17641ff0161d6d",
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-sys-ac6efded940c115d",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-mio-ada84cc028ad2d7",
+   "spdxElementId": "SPDXRef-Package-rust-crate-serde-json-ad17641ff0161d6d",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -6211,6 +6870,12 @@
   },
   {
    "spdxElementId": "SPDXRef-Package-rust-crate-trust-dns-proto-b27d13af1be3c862",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-macros-b3fb18c7b75c9964",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -6288,6 +6953,12 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-c4ebcb4598d2275c",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
    "spdxElementId": "SPDXRef-Package-rust-crate-tracing-core-c695221d3bf0a3bd",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
@@ -6318,7 +6989,7 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-macros-cf4a25d1353b3bb0",
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-targets-ced532b97f07a7fb",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -6331,12 +7002,6 @@
   },
   {
    "spdxElementId": "SPDXRef-Package-rust-crate-winapi-x86-64-pc-windows-gnu-d3c8b711868be604",
-   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
-   "relationshipType": "OTHER",
-   "comment": "evident-by: indicates the package's existence is evident by the given file"
-  },
-  {
-   "spdxElementId": "SPDXRef-Package-rust-crate-windows-targets-d5e24060b38f2184",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -6378,7 +7043,25 @@
    "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-x86-64-gnu-e45a06d04728aade",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
    "spdxElementId": "SPDXRef-Package-rust-crate-url-e4ac9d524e85c5b6",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-anyhow-e52782d84831695e",
+   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-rust-crate-windows-i686-gnu-e58a1487e5141252",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
@@ -6463,12 +7146,6 @@
   },
   {
    "spdxElementId": "SPDXRef-Package-rust-crate-tower-service-f718007a91190123",
-   "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
-   "relationshipType": "OTHER",
-   "comment": "evident-by: indicates the package's existence is evident by the given file"
-  },
-  {
-   "spdxElementId": "SPDXRef-Package-rust-crate-tokio-util-f8db6010452618eb",
    "relatedSpdxElement": "SPDXRef-4909563a6b8789cf",
    "relationshipType": "OTHER",
    "comment": "evident-by: indicates the package's existence is evident by the given file"
