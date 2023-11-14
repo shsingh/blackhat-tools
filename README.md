@@ -18,7 +18,7 @@ Author: [shsingh@linux.com](mailto:shsingh@linux.com)
 
 This repository contains tools made by completing exercises from the following books:
 
-<img src="https://nostarch.com/sites/default/files/styles/uc_product/public/BHP_2e_full_final4-Green_revised1.png" alt="Black Hat Python" width="170" height="225"/><img src="https://nostarch.com/sites/default/files/styles/uc_product/public/BHG_frontcover_REV_HM.png" alt="Black Hat Python" width="170" height="225"/><img src="https://kerkour.com/books/black-hat-rust/black_hat_rust_cover.png" alt="Black Hat Python" width="170" height="225"/>
+<img src="https://nostarch.com/sites/default/files/styles/uc_product_full/public/BlackHatPython2e_cover.png" alt="Black Hat Python" width="170" height="225"/><img src="https://nostarch.com/sites/default/files/styles/uc_product/public/BHG_frontcover_REV_HM.png" alt="Black Hat Python" width="170" height="225"/><img src="https://kerkour.com/assets/books/black-hat-rust/black_hat_rust_cover.png" alt="Black Hat Python" width="170" height="225"/>
 
 The intent is to specifically learn writing asynchronous and/or concurrent software for security use-cases in:
 
