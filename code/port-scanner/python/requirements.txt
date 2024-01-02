@@ -1,1 +1,1 @@
-netaddr==0.9.0
+netaddr==0.10.1
