@@ -10,7 +10,7 @@ edition = "2018"
 tokio = { version = "1", features = ["full"] }
 thiserror = "1.0"
 anyhow = "1.0"
-reqwest = { version = "0.12", default-features = false, features = [
+reqwest = { version = "0.12.4", default-features = false, features = [
   "json",
   "rustls-tls",
 ] }
