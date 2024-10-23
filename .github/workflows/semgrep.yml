@@ -37,7 +37,7 @@ jobs:
             api.github.com:443 github.com:443 metrics.semgrep.dev:443 semgrep.dev:443
 
       # Checkout project source
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       # Scan code using project's configuration on https://semgrep.dev/manage
       - uses: returntocorp/semgrep-action@713efdd345f3035192eaa63f56867b88e63e4e5d
         with:
